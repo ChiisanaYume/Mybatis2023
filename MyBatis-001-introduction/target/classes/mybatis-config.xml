@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/faintdream"/>
+                <property name="username" value="root"/>
+                <property name="password" value="333"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--执行XxxMapper.xml文件的路径-->
+        <!--resource属性会自动从类的根路径查找资源-->
+        <mapper resource="CarMapper.xml"/>
+
+        <!--url 从绝对路径加载-->
+        <!--语法格式 url="file://绝对路径"-->
+        <!--一般很少使用-->
+        <!--
+        <mapper url="file:///D:/study/Mybatis2023/MyBatis-001-introduction/src/main/resources/CarMapper.xml"/>
+        -->
+    </mappers>
+</configuration>
