@@ -1,4 +1,5 @@
-﻿##开发我的第一个MyBatis程序
+https://github.com/ChiisanaYume/Mybatis2023/blob/master/MyBatis-001-introduction/src/readme.txt
+####开发我的第一个MyBatis程序
 
 ##开发步骤
 
