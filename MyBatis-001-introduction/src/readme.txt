@@ -1,4 +1,5 @@
-##开发我的第一个MyBatis程序
+https://github.com/ChiisanaYume/Mybatis2023/blob/master/MyBatis-001-introduction/src/readme.txt
+####开发我的第一个MyBatis程序
 
 ##开发步骤
 
@@ -14,7 +15,7 @@
   - SqlSessionFactory对象的创建需要一个xml文件
 
   - mybatis中有两个主要的配置文件
-  - mybatis-config.xml 核心配置文件，主要配置连接数据库的信息等...(1个)
+  - mybatis-config.xml 核心配置文件，主要配置连接数据库的信息等...(一个)
   - XxxMapper.xml文件 专门用来编写sql语句的配置文件(一个表对应一个)
 
 * 第四步：编写XxxMapper.xml文件
