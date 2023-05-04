@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MyBaatis-001-introduction" />
+        <module name="junit-test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MyBaatis-001-introduction" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
