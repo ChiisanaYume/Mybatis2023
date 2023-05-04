@@ -20,3 +20,5 @@
   使用JDBC事务管理器的话，底层创建的事务管理器对象，JdbcTransaction对象
   如果你编写的是以下代码:
     SqlSession sqlSession = sqlSessionFactory.openSession(true);
+
+

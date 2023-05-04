@@ -1,0 +1,29 @@
+####关于Mybatis集成日志组件
+
+* mybatis常用日志组件有：
+  - SLF4J(沙拉风)：SLF4J是一个日志标准，其中有一个框架叫logback，logback实现了SLF4J
+  - lOG4J
+  - lOG4J2
+  - STDOUT_LOGGING
+  ...
+
+  注意：Log4J,Log4J2,logback是同一个作者开发的
+
+* 其中STDOUT_LOGGING 是标准日志，mybatis已经实现了标准日志
+  只要开启便可以使用
+
+  在mybatis-config.xml文件中使用setting标签进行配置开启：
+    <settings>
+      <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+  这个标签在编写时要注意，它应该出现在environments标签之前
+  注意顺序(有dtd文件进行约束，参考dtd文件即可，不需要刻意记忆)
+
+  这种实现可以看到一下基本的信息
+  比如连接对象什么时候创建，什么时候关闭，sql语句是怎么样的...
+  但是没有更详细的信息
+  比如线程名，详细的日期...
+
+  如果向使用更详细的日志组件，可以使用集成第三方的log组件
+
+  
