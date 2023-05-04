@@ -10,6 +10,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * 第一个MyBatis程序
+ * @author faintdream
+ * @version 1.0
+ * @since 1.0
+ *
+ *  */
+
 public class MyBatisIntroduction {
 
     public static void main(String... args) throws IOException {
