@@ -1,0 +1,22 @@
+####Mybatis事务管理机制
+
+* 在mybatis-config.xml文件中，可以通过以下配置进行mybatis的事务管理
+  <transactionManager type="JDBC"/>
+
+* type的属性的值包括两个：
+  JDBC(JDBC)
+  MANAGED(managed)
+  type后面的值,只有 ↑上面↑ 两个值可以选,不区分大小写
+
+* 在mybatis中提供了两种事务管理机制
+  1. JDBC事务管理器
+  2. MANAGED事务管理器
+
+* JDBC事务管理器
+  mybatis框架自己管理事务(底层采用原生的JDBC代码去管理事务)
+    conn.setAutoCommit(false);
+    ...业务逻辑...
+    conn.commit(); // 手动提交事务
+  使用JDBC事务管理器的话，底层创建的事务管理器对象，JdbcTransaction对象
+  如果你编写的是以下代码:
+    SqlSession sqlSession = sqlSessionFactory.openSession(true);
