@@ -1,0 +1,15 @@
+2023-05-05 20:52:49.840 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-05 20:52:49.863 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-05 20:52:49.864 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-05 20:52:49.864 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-05 20:52:49.864 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-05 20:52:49.948 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-05 20:52:50.285 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1028145537.
+2023-05-05 20:52:50.286 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d484181]
+2023-05-05 20:52:50.292 DEBUG org.mybatis.example.BlogMapper.insertCar - ==>  Preparing: INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type) VALUES(null,'1006','奥迪A6L','50.0','2010-11-11','燃油车')
+2023-05-05 20:52:50.353 DEBUG org.mybatis.example.BlogMapper.insertCar - ==> Parameters: 
+2023-05-05 20:52:50.355 DEBUG org.mybatis.example.BlogMapper.insertCar - <==    Updates: 1
+2023-05-05 20:52:50.356 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d484181]
+2023-05-05 20:52:50.358 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d484181]
+2023-05-05 20:52:50.358 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3d484181]
+2023-05-05 20:52:50.358 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1028145537 to pool.

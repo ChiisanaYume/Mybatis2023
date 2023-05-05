@@ -26,5 +26,20 @@
 
   如果向使用更详细的日志组件，可以使用集成第三方的log组件
 
-*
+* logback日志框架
+  logback 实现了SLF4J标准(SLF4j;日志门面，日志标准)
+
+  第一步:引入logback的依赖
+        <dependency>
+              <groupId>ch.qos.logback</groupId>
+              <artifactId>logback-classic</artifactId>
+              <version>1.2.11</version>
+              <scope>test</scope>
+        </dependency>
+  
+  第二步:引入logback所需要的xml配置文件
+  - 这个配置文件名必须叫做logback.xml/logback-test.xml(不能是其他的名字)
+  - 这个配置文件必须放到类的根路径下，不能是其他位置
+
+
   
