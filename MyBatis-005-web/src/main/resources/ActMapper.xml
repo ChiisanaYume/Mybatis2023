@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.faintdream.act">
+    <!--id是这条sql语句的唯一标识,这个id就代表了这条sql语句-->
+
+    <!--查询所有-->
+    <select id="selectAll" resultType="com.faintdream.bank.pojo.Account">
+        select * from t_car;
+    </select>
+
+    <select id="selectById" resultType="com.faintdream.bank.pojo.Account">
+        select * from t_act2 where act_no=#{act_no};
+    </select>
+
+    <update id="updateByAct_no" >
+        update t_act2 set balance=#{balance} where act_no=#{act_no};
+
+    </update>
+</mapper>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    
+    <!--过滤器-->
+    <filter>
+        <filter-name>Filter01</filter-name>
+        <filter-class>com.faintdream.bank.web.filter.Filter01</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Filter01</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>Filter02</filter-name>
+        <filter-class>com.faintdream.bank.web.filter.Filter02</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>Filter02</filter-name>
+        <url-pattern>*.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>Filter02</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+    
+    <!--Servlet-->
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.faintdream.bank.web.servlet.IndexServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NoAccessServlet</servlet-name>
+        <servlet-class>com.faintdream.bank.web.servlet.NoAccessServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NoAccessServlet</servlet-name>
+        <url-pattern>/no-access</url-pattern>
+    </servlet-mapping>
+
+
+    <!--AccountService(转账)相关-->
+    <servlet>
+        <servlet-name>AccountServlet</servlet-name>
+        <servlet-class>com.faintdream.bank.web.servlet.AccountServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AccountServlet</servlet-name>
+        <url-pattern>/transfer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransferSuccessServlet</servlet-name>
+        <servlet-class>com.faintdream.bank.web.servlet.TransferSuccessServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TransferSuccessServlet</servlet-name>
+        <url-pattern>/transfer-success</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MoneyNotEnoughExceptionServlet</servlet-name>
+        <servlet-class>com.faintdream.bank.web.servlet.MoneyNotEnoughExceptionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MoneyNotEnoughExceptionServlet</servlet-name>
+        <url-pattern>/money-not-enough-exception</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransferExceptionServlet</servlet-name>
+        <servlet-class>com.faintdream.bank.web.servlet.TransferExceptionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TransferExceptionServlet</servlet-name>
+        <url-pattern>/transfer-exception</url-pattern>
+    </servlet-mapping>
+
+</web-app>

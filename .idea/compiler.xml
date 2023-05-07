@@ -7,11 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="junit-test" />
+        <module name="MyBatis-005-web" />
         <module name="MyBatis-001-introduction" />
-        <module name="MyBatis-002-crud" />
         <module name="MyBatis-003-configuration" />
+        <module name="MyBatis-002-crud" />
         <module name="cmd-test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo1" target="1.8" />
+      <module name="Mybatis-004-web" target="17" />
+      <module name="MyBatis-004-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

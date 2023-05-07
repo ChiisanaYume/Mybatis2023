@@ -50,36 +50,26 @@
 
                 <!--POLLED 连接池配置-->
 
-                <!--poolMaximumActiveConnections 最大连接数量 默认4-->
-                <property name="poolMaximumActiveConnections" value="4"/>
+                <!--poolMaximumActiveConnections 最大连接数量 默认20-->
+                <property name="poolMaximumActiveConnections" value="10"/>
 
                 <!--poolMaximumIdleConnections 空闲连接数量-->
-                <property name="poolMaximumIdleConnections" value="2"/>
+                <property name="poolMaximumIdleConnections" value="3"/>
 
                 <!--poolMaximumCheckoutTime 强行让某个连接空闲，超时时间 默认20000毫秒-->
                 <property name="poolMaximumCheckoutTime" value="10000"/>
 
                 <!--如果获取连接花费了相当长的时间，连接池会打印状态日志并重新尝试获取一个连接（避免在误配置的情况下一直失败且不打印日志）-->
                 <!--poolTimeToWait 每隔多少毫秒秒打印日志，并尝试获取连接对象 默认20000毫秒-->
-                <property name="poolTimeToWait" value="2000"/>
+                <property name="poolTimeToWait" value="5000"/>
             </dataSource>
         </environment>
 
-        <!--其中一个(数据库)环境,连接的数据库是genshin-->
-        <environment id="genshin">
-            <transactionManager type="JDBC"/>
-            <dataSource type="POOLED">
-                <property name="driver" value="${fd.driver}"/>
-                <property name="url" value="${fd.url}"/>
-                <property name="username" value="${fd.username}"/>
-                <property name="password" value="${fd.password}"/>
-            </dataSource>
-        </environment>
     </environments>
     <mappers>
         <!--执行XxxMapper.xml文件的路径-->
         <!--resource属性会自动从类的根路径查找资源-->
-        <mapper resource="CarMapper.xml"/>
+        <mapper resource="ActMapper.xml"/>
 
     </mappers>
 </configuration>
