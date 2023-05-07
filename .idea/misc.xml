@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/MyBatis-001-introduction/pom.xml" />
         <option value="$PROJECT_DIR$/junit-test/pom.xml" />
         <option value="$PROJECT_DIR$/cmd-test/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-002-crud/pom.xml" />
       </list>
     </option>
   </component>

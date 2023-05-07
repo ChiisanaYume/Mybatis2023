@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="junit-test" />
         <module name="MyBatis-001-introduction" />
+        <module name="MyBatis-002-crud" />
         <module name="cmd-test" />
       </profile>
     </annotationProcessing>
