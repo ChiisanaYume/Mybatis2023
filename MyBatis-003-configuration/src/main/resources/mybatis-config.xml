@@ -6,6 +6,16 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+    <!-- properties标签用于定义和配置属性（properties）-->
+    <!-- 这些属性可以在整个配置文件中中引用和使用，包括映射文件（Mapper XML）-->
+    <!-- properties标签可以写多个-->
+
+    <!-- 从类路径的database.properties加载配置-->
+    <properties resource="user.properties">
+        <property name="fd.driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="fd.url" value="jdbc:mysql://localhost:3306/faintdream"/>
+    </properties>
+
     <!--配置(数据库)环境-->
     <!--default属性表示默认使用的环境-->
     <!--在使用Mybatis创建SqlSessionFactory对象的时候,没有指定环境的话，默认使用的环境-->
@@ -15,15 +25,43 @@
         <!--一般一个数据库对应一个环境(environment);一个个SqlSessionFactory对象-->
         <environment id="development">
 
-            <!--事务管理器，有两个值JDBC/MANAGED-->
+            <!--事务管理器，有两个值 JDBC/MANAGED-->
             <transactionManager type="JDBC"/>
 
-            <!--数据源,为程序提供Connection对象-->
+            <!--数据源(dataSource),为程序提供Connection对象-->
+            <!--dataSource 有三个值 POOLED/UNPOOLED/JNDI-->
+            <!-- POOLED 使用mybatis自己实现的连接池技术-->
+            <!-- UNPOOLED 不使用连接池技术-->
+            <!-- JNDI 使用集成第三方的连接池-->
+
             <dataSource type="POOLED">
+
+                <!--driver JDBC驱动的java全限定类名-->
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+
+                <!--url 数据库 JDBC URL 地址-->
                 <property name="url" value="jdbc:mysql://localhost:3306/faintdream"/>
+
+                <!--username 登录数据库用户名-->
                 <property name="username" value="root"/>
+
+                <!--password 登录数据库密码-->
                 <property name="password" value="333"/>
+
+                <!--POLLED 连接池配置-->
+
+                <!--poolMaximumActiveConnections 最大连接数量 默认4-->
+                <property name="poolMaximumActiveConnections" value="4"/>
+
+                <!--poolMaximumIdleConnections 空闲连接数量-->
+                <property name="poolMaximumIdleConnections" value="2"/>
+
+                <!--poolMaximumCheckoutTime 强行让某个连接空闲，超时时间 默认20000毫秒-->
+                <property name="poolMaximumCheckoutTime" value="10000"/>
+
+                <!--如果获取连接花费了相当长的时间，连接池会打印状态日志并重新尝试获取一个连接（避免在误配置的情况下一直失败且不打印日志）-->
+                <!--poolTimeToWait 每隔多少毫秒秒打印日志，并尝试获取连接对象 默认20000毫秒-->
+                <property name="poolTimeToWait" value="2000"/>
             </dataSource>
         </environment>
 
@@ -31,10 +69,10 @@
         <environment id="genshin">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/genshin"/>
-                <property name="username" value="root"/>
-                <property name="password" value="333"/>
+                <property name="driver" value="${fd.driver}"/>
+                <property name="url" value="${fd.url}"/>
+                <property name="username" value="${fd.username}"/>
+                <property name="password" value="${fd.password}"/>
             </dataSource>
         </environment>
     </environments>

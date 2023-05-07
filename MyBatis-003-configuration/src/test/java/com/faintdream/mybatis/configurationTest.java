@@ -20,6 +20,66 @@ import java.util.List;
 public class configurationTest {
 
     @Test
+    public void connection02Test() throws IOException {
+
+        SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
+        //创建SqlSessionFactory对象(一个Mapper对应一个SqlSessionFactory,不要重复创建)
+        SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(Resources.getResourceAsStream("mybatis-config.xml"));
+
+        //创建 10个 SqlSession对象
+        for (int a = 0; a < 5; a++) {
+            SqlSession sqlSession = sqlSessionFactory.openSession();
+
+            //插入测试
+            insertTest(sqlSession);
+
+            //查询测试
+            selectTest(sqlSession);
+
+            //不要关闭(测试需要)
+            //sqlSession.close();
+        }
+
+
+
+    }
+
+    /**
+     * 测试数据源数据连接对象
+     * 在使用连接的时候 两次执行openSession()创建的连接对象是相同的一个对象
+     * 不是用连接池的时候 两次执行openSession()创建的对象是不同的对象
+     */
+    @Test
+    public void connectionTest() throws IOException {
+        SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
+
+        //创建SqlSession对象
+        SqlSessionFactory sqlSessionFactory1 = sqlSessionFactoryBuilder.build(Resources.getResourceAsStream("mybatis-config.xml"));
+        SqlSession sqlSession1 = sqlSessionFactory1.openSession();
+
+        //查询测试
+        selectTest(sqlSession1);
+
+        //插入测试
+        insertTest(sqlSession1);
+        sqlSession1.close();
+
+        ///////////////////////////////////////////////////
+
+        //创建SqlSession对象
+        SqlSessionFactory sqlSessionFactory2 = sqlSessionFactoryBuilder.build(Resources.getResourceAsStream("mybatis-config.xml"));
+        SqlSession sqlSession2 = sqlSessionFactory2.openSession();
+
+        //查询测试
+        selectTest(sqlSession2);
+
+        //插入测试
+        insertTest(sqlSession2);
+        sqlSession2.close();
+
+    }
+
+    @Test
     public void configurationTest01() throws IOException {
 
         SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
