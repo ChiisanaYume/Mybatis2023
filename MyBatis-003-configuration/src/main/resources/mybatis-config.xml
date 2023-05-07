@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--根标签 一个xml文件只有一个根标签 mybatis 配置文件的根标签是 configuration-->
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--配置(数据库)环境-->
+    <!--default属性表示默认使用的环境-->
+    <!--在使用Mybatis创建SqlSessionFactory对象的时候,没有指定环境的话，默认使用的环境-->
+    <environments default="development">
+
+        <!--其中一个(数据库)环境,连接的数据库是faintdream-->
+        <!--一般一个数据库对应一个环境(environment);一个个SqlSessionFactory对象-->
+        <environment id="development">
+
+            <!--事务管理器，有两个值JDBC/MANAGED-->
+            <transactionManager type="JDBC"/>
+
+            <!--数据源,为程序提供Connection对象-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/faintdream"/>
+                <property name="username" value="root"/>
+                <property name="password" value="333"/>
+            </dataSource>
+        </environment>
+
+        <!--其中一个(数据库)环境,连接的数据库是genshin-->
+        <environment id="genshin">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/genshin"/>
+                <property name="username" value="root"/>
+                <property name="password" value="333"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--执行XxxMapper.xml文件的路径-->
+        <!--resource属性会自动从类的根路径查找资源-->
+        <mapper resource="CarMapper.xml"/>
+
+    </mappers>
+</configuration>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.faintdream.car">
+    <!--id是这条sql语句的唯一标识,这个id就代表了这条sql语句-->
+
+    <!--插入-->
+    <insert id="insertCar">
+        INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type)
+        VALUES(null,#{car_num},#{brand},#{guide_price},#{produce_time},#{car_type});
+    </insert>
+
+    <!--查寻-->
+    <select id="selectCarAll" resultType="com.faintdream.mybatis.pojo.Car">
+        select * from t_car;
+    </select>
+</mapper>

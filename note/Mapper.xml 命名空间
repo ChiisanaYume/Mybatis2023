@@ -1,0 +1,5 @@
+#### 在XxxMapper.xml文件中,有一个namespace属性
+- 这个属性是用来指定命名空间的
+- 防止id重名，Mybatis找不到id
+- Mybatis 中sql id 的完整写法要加上 namespace
+- com.faintdream.car.selectAll
