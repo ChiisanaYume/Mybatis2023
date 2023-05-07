@@ -936,3 +936,66 @@
 2023-05-07 22:31:49.946 DEBUG com.faintdream.car.selectCarAll - ==>  Preparing: select * from t_car;
 2023-05-07 22:31:49.946 DEBUG com.faintdream.car.selectCarAll - ==> Parameters: 
 2023-05-07 22:31:49.968 DEBUG com.faintdream.car.selectCarAll - <==      Total: 60
+2023-05-07 22:36:47.951 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-07 22:36:47.973 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.974 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.974 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.974 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.974 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.974 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.975 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:47.975 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-07 22:36:48.060 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-07 22:36:48.372 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1456061400.
+2023-05-07 22:36:48.373 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@56c9bbd8]
+2023-05-07 22:36:48.379 DEBUG com.faintdream.car.insertCar - ==>  Preparing: INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type) VALUES(null,?,?,?,?,?);
+2023-05-07 22:36:48.439 DEBUG com.faintdream.car.insertCar - ==> Parameters: 1011(String), 比亚迪海豹(String), 11(String), 2023-02-02(String), 电动车(String)
+2023-05-07 22:36:48.443 DEBUG com.faintdream.car.insertCar - <==    Updates: 1
+2023-05-07 22:36:48.444 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@56c9bbd8]
+2023-05-07 22:36:48.448 DEBUG com.faintdream.car.selectCarAll - ==>  Preparing: select * from t_car;
+2023-05-07 22:36:48.449 DEBUG com.faintdream.car.selectCarAll - ==> Parameters: 
+2023-05-07 22:36:48.507 DEBUG com.faintdream.car.selectCarAll - <==      Total: 10
+2023-05-07 22:36:48.526 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-07 22:36:48.532 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 626193099.
+2023-05-07 22:36:48.532 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2552f2cb]
+2023-05-07 22:36:48.532 DEBUG com.faintdream.car.insertCar - ==>  Preparing: INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type) VALUES(null,?,?,?,?,?);
+2023-05-07 22:36:48.534 DEBUG com.faintdream.car.insertCar - ==> Parameters: 1011(String), 比亚迪海豹(String), 11(String), 2023-02-02(String), 电动车(String)
+2023-05-07 22:36:48.536 DEBUG com.faintdream.car.insertCar - <==    Updates: 1
+2023-05-07 22:36:48.536 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2552f2cb]
+2023-05-07 22:36:48.538 DEBUG com.faintdream.car.selectCarAll - ==>  Preparing: select * from t_car;
+2023-05-07 22:36:48.539 DEBUG com.faintdream.car.selectCarAll - ==> Parameters: 
+2023-05-07 22:36:48.552 DEBUG com.faintdream.car.selectCarAll - <==      Total: 11
+2023-05-07 22:36:48.553 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-07 22:36:48.558 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 138536309.
+2023-05-07 22:36:48.558 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@841e575]
+2023-05-07 22:36:48.559 DEBUG com.faintdream.car.insertCar - ==>  Preparing: INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type) VALUES(null,?,?,?,?,?);
+2023-05-07 22:36:48.559 DEBUG com.faintdream.car.insertCar - ==> Parameters: 1011(String), 比亚迪海豹(String), 11(String), 2023-02-02(String), 电动车(String)
+2023-05-07 22:36:48.560 DEBUG com.faintdream.car.insertCar - <==    Updates: 1
+2023-05-07 22:36:48.561 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@841e575]
+2023-05-07 22:36:48.562 DEBUG com.faintdream.car.selectCarAll - ==>  Preparing: select * from t_car;
+2023-05-07 22:36:48.563 DEBUG com.faintdream.car.selectCarAll - ==> Parameters: 
+2023-05-07 22:36:48.569 DEBUG com.faintdream.car.selectCarAll - <==      Total: 12
+2023-05-07 22:36:48.570 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-07 22:36:48.576 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1801021153.
+2023-05-07 22:36:48.576 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b5966e1]
+2023-05-07 22:36:48.576 DEBUG com.faintdream.car.insertCar - ==>  Preparing: INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type) VALUES(null,?,?,?,?,?);
+2023-05-07 22:36:48.578 DEBUG com.faintdream.car.insertCar - ==> Parameters: 1011(String), 比亚迪海豹(String), 11(String), 2023-02-02(String), 电动车(String)
+2023-05-07 22:36:48.580 DEBUG com.faintdream.car.insertCar - <==    Updates: 1
+2023-05-07 22:36:48.580 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6b5966e1]
+2023-05-07 22:36:48.583 DEBUG com.faintdream.car.selectCarAll - ==>  Preparing: select * from t_car;
+2023-05-07 22:36:48.584 DEBUG com.faintdream.car.selectCarAll - ==> Parameters: 
+2023-05-07 22:36:48.591 DEBUG com.faintdream.car.selectCarAll - <==      Total: 13
+2023-05-07 22:36:48.592 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-07 22:36:48.592 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2023-05-07 22:36:50.599 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2023-05-07 22:36:52.612 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2023-05-07 22:36:54.618 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2023-05-07 22:36:56.621 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 2000 milliseconds for connection.
+2023-05-07 22:36:58.634 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Claimed overdue connection 1456061400.
+2023-05-07 22:36:58.635 DEBUG com.faintdream.car.insertCar - ==>  Preparing: INSERT INTO t_car(id,car_num,brand,guide_price,produce_time,car_type) VALUES(null,?,?,?,?,?);
+2023-05-07 22:36:58.636 DEBUG com.faintdream.car.insertCar - ==> Parameters: 1011(String), 比亚迪海豹(String), 11(String), 2023-02-02(String), 电动车(String)
+2023-05-07 22:36:58.638 DEBUG com.faintdream.car.insertCar - <==    Updates: 1
+2023-05-07 22:36:58.638 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@56c9bbd8]
+2023-05-07 22:36:58.640 DEBUG com.faintdream.car.selectCarAll - ==>  Preparing: select * from t_car;
+2023-05-07 22:36:58.641 DEBUG com.faintdream.car.selectCarAll - ==> Parameters: 
+2023-05-07 22:36:58.648 DEBUG com.faintdream.car.selectCarAll - <==      Total: 14

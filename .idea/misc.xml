@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis-004-web" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -9,6 +14,7 @@
         <option value="$PROJECT_DIR$/cmd-test/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-002-crud/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-003-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-224-web/pom.xml" />
       </list>
     </option>
   </component>
