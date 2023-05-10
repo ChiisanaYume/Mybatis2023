@@ -1,0 +1,16 @@
+2023-05-10 20:57:17.530 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-10 20:57:17.559 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.560 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.561 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.561 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.562 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.562 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.562 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.562 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-10 20:57:17.677 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-10 20:57:18.071 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 480184864.
+2023-05-10 20:57:18.071 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1c9f0a20]
+2023-05-10 20:57:18.078 DEBUG com.faintdream.act.updateByAct_no - ==>  Preparing: update t_act2 set balance=? where act_no=?;
+2023-05-10 20:57:18.140 DEBUG com.faintdream.act.updateByAct_no - ==> Parameters: 100000000(String), ACT003(String)
+2023-05-10 20:57:18.145 DEBUG com.faintdream.act.updateByAct_no - <==    Updates: 1
+2023-05-10 20:57:18.145 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1c9f0a20]
