@@ -19,10 +19,6 @@ public class AccountDaoImpl implements AccountDao {
 
 
             int count = sqlSession.update("com.faintdream.act.updateByAct_no", account);
-            if (count == 1) {
-                sqlSession.commit();
-                return count;
-            }
 
         } catch (Exception e) {
             if (sqlSession != null) {

@@ -21,6 +21,7 @@ public class SqlSessionUtil {
     }
 
     private static final SqlSessionFactory SQL_SESSION_FACTORY;
+    private static ThreadLocal<SqlSession> threadLocal = new ThreadLocal<SqlSession>();
 
     static {
         try {
@@ -32,7 +33,26 @@ public class SqlSessionUtil {
     }
 
     public static SqlSession openSqlSession() throws IOException {
+        SqlSession sqlSession = threadLocal.get();
+        if (sqlSession == null) {
+            sqlSession = SQL_SESSION_FACTORY.openSession();
+            threadLocal.set(sqlSession);
+        }
+        return sqlSession;
+    }
 
-        return SQL_SESSION_FACTORY.openSession();
+    private static void close(AutoCloseable resource){
+        if(resource!=null){
+            try {
+                resource.close();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+
+    private static void close(SqlSession sqlSession){
+        close((AutoCloseable) sqlSession);
+        threadLocal.remove();
     }
 }

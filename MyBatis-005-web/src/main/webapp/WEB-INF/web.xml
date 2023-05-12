@@ -3,7 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
-    
+
+
     <!--过滤器-->
     <filter>
         <filter-name>Filter01</filter-name>
@@ -22,7 +23,7 @@
 
     <filter-mapping>
         <filter-name>Filter02</filter-name>
-        <url-pattern>*.html</url-pattern>
+        <url-pattern>/bank/*</url-pattern>
     </filter-mapping>
 
     <filter-mapping>

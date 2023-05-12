@@ -26,7 +26,7 @@ public class Filter02 implements Filter {
         request.getRequestDispatcher("/no-access").forward(request,response);
 
         // 测试代码
-        // System.out.println("Filter02");
+         System.out.println("Filter02");
     }
 
     @Override

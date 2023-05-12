@@ -25,9 +25,9 @@ public class AccountServlet extends HttpServlet {
         String money = request.getParameter("money");
 
         //调用业务方法完成业务
-        System.out.println(from_no);
-        System.out.println(to_no);
-        System.out.println(money);
+        //System.out.println(from_no);
+        //System.out.println(to_no);
+        //System.out.println(money);
 
         try {
             accountService.transfer(from_no, to_no, money);

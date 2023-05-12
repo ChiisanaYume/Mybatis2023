@@ -7,6 +7,10 @@ import com.faintdream.bank.exception.TransferException;
 import com.faintdream.bank.pojo.Account;
 import com.faintdream.bank.service.AccountService;
 import com.faintdream.bank.util.Calc;
+import com.faintdream.bank.util.SqlSessionUtil;
+import org.apache.ibatis.session.SqlSession;
+
+import java.io.IOException;
 
 public class AccountServiceImpl implements AccountService {
 
@@ -18,6 +22,14 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public void transfer(final String from_no, final String to_no, final String money) throws MoneyNotEnoughException, TransferException {
+
+        SqlSession sqlSession = null;
+
+        try {
+            sqlSession = SqlSessionUtil.openSqlSession();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
         // 判断转出账户的余额是否充足
         Account fromAct = accountDao.selectByAct_no(from_no);
@@ -31,19 +43,24 @@ public class AccountServiceImpl implements AccountService {
         // 余额充足，执行转账
         Account toAct = accountDao.selectByAct_no(to_no);
 
-        // 计算转入账户金额并提交数据库
+        // 计算转入账户金额并提交数据库(缓存)
         fromAct.setBalance(Calc.sub1(fromAct.getBalance(), money));
 
-        // 计算转出账户金额并提交数据库
+        // 计算转出账户金额并提交数据库(缓存)
         toAct.setBalance(Calc.sum1(toAct.getBalance(), money));
 
-        int count = accountDao.updateByAct_no(fromAct);
-        count += accountDao.updateByAct_no(toAct);
+        accountDao.updateByAct_no(fromAct);
 
-        // 如果数据库没有两条记录更新证明转账失败
-        if (count != 2) {
-            throw new TransferException("转账异常，未知原因");
-        }
+        // 模拟异常
+        // String s = null;
+        // s.toString();
+
+        accountDao.updateByAct_no(toAct);
+
+        // 真正提交到数据库
+        sqlSession.commit();
+
+
 
     }
 }
