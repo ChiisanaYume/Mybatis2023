@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="junit-test" />
         <module name="MyBatis-005-web" />
+        <module name="Apache-PDFBox-test" />
         <module name="MyBatis-001-introduction" />
         <module name="MyBatis-003-configuration" />
         <module name="cmd-test" />
