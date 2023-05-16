@@ -1,4 +1,4 @@
-package com.faintdream.bank.util;
+package com.faintdream.mybatis.util;
 
 import java.math.BigDecimal;
 

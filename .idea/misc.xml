@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/demo1" />
     <file type="web" url="file://$PROJECT_DIR$/MyBatis-004-web" />
     <file type="web" url="file://$PROJECT_DIR$/MyBatis-005-web" />
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis-006-crud" />
+    <file type="web" url="file://$PROJECT_DIR$/Mybatis-007-skill" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -17,6 +19,8 @@
         <option value="$PROJECT_DIR$/MyBatis-003-configuration/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-224-web/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-005-web/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-006-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-007-skill/pom.xml" />
       </list>
     </option>
   </component>
