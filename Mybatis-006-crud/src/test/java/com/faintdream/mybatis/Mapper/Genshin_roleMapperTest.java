@@ -30,7 +30,7 @@ public class Genshin_roleMapperTest {
     @Ignore
     @Test
     public void insertTest(){
-        Genshin_role role = new Genshin_role(null,"Annie","安妮");
+        Genshin_role role = new Genshin_role(null,"Aether","空");
         MAPPER.insert(role);
         SQL_SESSION.commit();
     }
@@ -38,7 +38,7 @@ public class Genshin_roleMapperTest {
     @Ignore
     @Test
     public void deleteTest(){
-        MAPPER.deleteById("84");
+        MAPPER.deleteById("87");
         SQL_SESSION.commit();
     }
     @Ignore
@@ -51,9 +51,8 @@ public class Genshin_roleMapperTest {
     @Ignore
     @Test
     public void updateByIdTest(){
-        Genshin_role role = new Genshin_role("85","Hhhh","公主");
-        MAPPER.updateById(role,"85");
-        //SQL_SESSION.commit();
+        MAPPER.updateById("Lumine","萤","86");
+        SQL_SESSION.commit();
     }
 
     @Test

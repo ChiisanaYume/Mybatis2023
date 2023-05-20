@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/Mybatis-006-crud/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis-007-skill/pom.xml" />
         <option value="$PROJECT_DIR$/Apache-PDFBox-test/pom.xml" />
+        <option value="$PROJECT_DIR$/Tesseract-OCR-test/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-008-dynamic-sql/pom.xml" />
       </list>
     </option>
   </component>

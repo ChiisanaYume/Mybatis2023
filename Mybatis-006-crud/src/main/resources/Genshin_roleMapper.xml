@@ -19,6 +19,7 @@
         UPDATE t_genshin_role SET name=#{name},name_c=#{name_c} WHERE id=#{id};
     </update>
 
+    <!-- 这里不建议这么写-->
     <update id="updateById" parameterType="com.faintdream.mybatis.pojo.Genshin_role">
         UPDATE t_genshin_role SET name=#{name},name_c=#{name_c} WHERE id=#{id};
     </update>

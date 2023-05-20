@@ -12,9 +12,11 @@
         <module name="MyBatis-001-introduction" />
         <module name="MyBatis-003-configuration" />
         <module name="cmd-test" />
+        <module name="Tesseract-OCR-test" />
         <module name="Mybatis-007-skill" />
         <module name="Mybatis-006-crud" />
         <module name="MyBatis-002-crud" />
+        <module name="MyBatis-008-dynamic-sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
