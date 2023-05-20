@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的全限类名-->
+<mapper namespace="com.faintdream.mybatis.mapper.Genshin_role_detailMapper">
+    <select id="selectAll" resultType="Genshin_role_detail">
+        select * from t_genshin_role_detail;
+    </select>
+
+    <select id="selectById" resultType="Genshin_role_detail" parameterType="java.lang.String">
+        select * from t_genshin_role_detail where id=#{id};
+    </select>
+</mapper>

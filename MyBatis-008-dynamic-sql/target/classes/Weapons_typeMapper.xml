@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的全限类名-->
+<mapper namespace="com.faintdream.mybatis.mapper.Weapons_type_Mapper">
+
+    <select id="selectAll" resultType="Weapons_type">
+        select * from t_weapons_type;
+    </select>
+
+</mapper>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的 全限类名(写死)-->
+<mapper namespace="com.faintdream.mybatis.mapper.DynamicMapper">
+
+    <!--id使用Mapper接口的方法名-->
+    <select  id="selectAll" resultMap="com.faintdream.mybatis.Demo">
+        SELECT * FROM t_genshin_region;
+    </select>
+</mapper>
