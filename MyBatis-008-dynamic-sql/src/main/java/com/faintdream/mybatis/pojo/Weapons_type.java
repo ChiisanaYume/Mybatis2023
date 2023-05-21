@@ -6,12 +6,12 @@ package com.faintdream.mybatis.pojo;
  * @version 1.0
  * */
 public class Weapons_type {
-    private String tno;
+    private String no;
     private String weapons;
     private String weapons_c;
 
-    public Weapons_type(String tno, String weapons, String weapons_c) {
-        this.tno = tno;
+    public Weapons_type(String no, String weapons, String weapons_c) {
+        this.no = no;
         this.weapons = weapons;
         this.weapons_c = weapons_c;
     }
@@ -19,12 +19,12 @@ public class Weapons_type {
     public Weapons_type() {
     }
 
-    public String getTno() {
-        return tno;
+    public String getNo() {
+        return no;
     }
 
-    public void setTno(String tno) {
-        this.tno = tno;
+    public void setNo(String no) {
+        this.no = no;
     }
 
     public String getWeapons() {
@@ -46,7 +46,7 @@ public class Weapons_type {
     @Override
     public String toString() {
         return "Weapons_type{" +
-                "tno='" + tno + '\'' +
+                "no='" + no + '\'' +
                 ", weapons='" + weapons + '\'' +
                 ", weapons_c='" + weapons_c + '\'' +
                 '}';

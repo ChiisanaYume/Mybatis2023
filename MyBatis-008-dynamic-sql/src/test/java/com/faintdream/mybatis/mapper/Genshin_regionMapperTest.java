@@ -1,6 +1,7 @@
 package com.faintdream.mybatis.mapper;
 
 import com.faintdream.mybatis.pojo.Genshin_region;
+import com.faintdream.mybatis.util.MapperBuilder;
 import com.faintdream.mybatis.util.SqlSessionUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
@@ -10,19 +11,10 @@ import java.util.List;
 
 public class Genshin_regionMapperTest {
 
-    public final static SqlSession SQL_SESSION;
-    public final static Genshin_regionMapper<Genshin_region> MAPPER;
+    public final static Genshin_regionMapper<Genshin_region> MAPPER
+            = new MapperBuilder<Genshin_regionMapper>(Genshin_regionMapper.class).getMapper();
 
-    /*查询数据的mapper对象*/
-    static {
-        try {
-            SQL_SESSION = SqlSessionUtil.openSqlSession();
-            // 面向接口获取代理对象
-            MAPPER = SQL_SESSION.getMapper(Genshin_regionMapper.class);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
     @Test
     public void selectAllTest() {

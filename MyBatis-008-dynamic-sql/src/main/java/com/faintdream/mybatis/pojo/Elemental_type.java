@@ -6,12 +6,12 @@ package com.faintdream.mybatis.pojo;
  * @version 1.0
  * */
 public class Elemental_type {
-    private String tno;
+    private String no;
     private String type;
     private String type_c;
 
-    public Elemental_type(String tno, String type, String type_c) {
-        this.tno = tno;
+    public Elemental_type(String no, String type, String type_c) {
+        this.no = no;
         this.type = type;
         this.type_c = type_c;
     }
@@ -19,12 +19,12 @@ public class Elemental_type {
     public Elemental_type() {
     }
 
-    public String getTno() {
-        return tno;
+    public String getNo() {
+        return no;
     }
 
-    public void setTno(String tno) {
-        this.tno = tno;
+    public void setNo(String no) {
+        this.no = no;
     }
 
     public String getType() {
@@ -46,7 +46,7 @@ public class Elemental_type {
     @Override
     public String toString() {
         return "Elemental_type{" +
-                "tno='" + tno + '\'' +
+                "no='" + no + '\'' +
                 ", type='" + type + '\'' +
                 ", type_c='" + type_c + '\'' +
                 '}';

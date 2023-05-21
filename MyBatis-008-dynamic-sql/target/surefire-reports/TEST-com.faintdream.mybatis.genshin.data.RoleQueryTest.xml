@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.faintdream.mybatis.genshin.data.RoleQueryTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.faintdream.mybatis.genshin.data.RoleQueryTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,6 +61,6 @@
     <property name="java.vendor.version" value="JBR-17.0.6+10-829.9-nomod"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.faintdream.mybatis.genshin.data.RoleQueryTest" name="getSexTest" time="0.005"/>
+  <testcase classname="com.faintdream.mybatis.genshin.data.RoleQueryTest" name="getSexTest" time="0.007"/>
   <testcase classname="com.faintdream.mybatis.genshin.data.RoleQueryTest" name="getNameTest" time="0"/>
 </testsuite>

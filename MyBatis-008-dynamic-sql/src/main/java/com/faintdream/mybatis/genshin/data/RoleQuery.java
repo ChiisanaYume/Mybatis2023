@@ -11,7 +11,7 @@ public class RoleQuery {
 
     /**
      * 数据
-     * */
+     */
     public static List<Genshin_role> names;
     public static List<Sex> sexs;
     public static List<Elemental_type> elemental_types;
@@ -20,23 +20,23 @@ public class RoleQuery {
 
     /**
      * 更新数据
-     * */
-    public void update(){
-        names =  new MapperBuilder<Genshin_roleMapper>(Genshin_roleMapper.class).getMapper().selectAll();
-        sexs =  new MapperBuilder<SexMapper>(SexMapper.class).getMapper().selectAll();
+     */
+    public void update() {
+        names = new MapperBuilder<Genshin_roleMapper>(Genshin_roleMapper.class).getMapper().selectAll();
+        sexs = new MapperBuilder<SexMapper>(SexMapper.class).getMapper().selectAll();
         elemental_types = new MapperBuilder<Elemental_typeMapper>(Elemental_typeMapper.class).getMapper().selectAll();
         regions = new MapperBuilder<Genshin_regionMapper>(Genshin_regionMapper.class).getMapper().selectAll();
         weapons_types = new MapperBuilder<Weapons_typeMapper>(Weapons_typeMapper.class).getMapper().selectAll();
 
     }
 
-    public Map<String,String> select(){
+    public Map<String, String> select() {
         return null;
     }
 
-    public Genshin_role getName(String id){
-        for(Genshin_role name:names){
-            if(name.getId().equals(id)){
+    public Genshin_role getName(String id) {
+        for (Genshin_role name : names) {
+            if (name.getId().equals(id)) {
                 return name;
             }
 
@@ -44,10 +44,40 @@ public class RoleQuery {
         return null;
     }
 
-    public Sex getSex(String no){
-        for(Sex sex:sexs){
-            if(sex.getNo().equals(no)){
+    public Sex getSex(String no) {
+        for (Sex sex : sexs) {
+            if (sex.getNo().equals(no)) {
                 return sex;
+            }
+
+        }
+        return null;
+    }
+
+    public Elemental_type getElemental_type(String no) {
+        for (Elemental_type type : elemental_types) {
+            if (type.getNo().equals(no)) {
+                return type;
+            }
+
+        }
+        return null;
+    }
+
+    public Genshin_region getRegion(String no) {
+        for (Genshin_region region : regions) {
+            if (region.getNo().equals(no)) {
+                return region;
+            }
+
+        }
+        return null;
+    }
+
+    public Weapons_type getWeapons_type(String no) {
+        for (Weapons_type type : weapons_types) {
+            if (type.getNo().equals(no)) {
+                return type;
             }
 
         }

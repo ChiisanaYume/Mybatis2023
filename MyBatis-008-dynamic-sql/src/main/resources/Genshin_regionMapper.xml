@@ -8,7 +8,7 @@
 
     <!--id使用Mapper接口的方法名-->
     <select  id="selectById" parameterType="Genshin_region" resultType="Genshin_region">
-        SELECT * FROM t_genshin_region WHERE rno=#{rno};
+        SELECT * FROM t_genshin_region WHERE no=#{no};
     </select>
 
     <select  id="selectAll" resultType="Genshin_region">

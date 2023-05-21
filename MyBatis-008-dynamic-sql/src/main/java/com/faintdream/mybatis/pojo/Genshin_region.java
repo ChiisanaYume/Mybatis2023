@@ -6,12 +6,12 @@ package com.faintdream.mybatis.pojo;
  * @version 1.0
  * */
 public class Genshin_region {
-    private String rno;
+    private String no;
     private String region;
     private String region_c;
 
-    public Genshin_region(String rno, String region, String region_c) {
-        this.rno = rno;
+    public Genshin_region(String no, String region, String region_c) {
+        this.no = no;
         this.region = region;
         this.region_c = region_c;
     }
@@ -19,12 +19,12 @@ public class Genshin_region {
     public Genshin_region() {
     }
 
-    public String getRno() {
-        return rno;
+    public String getNo() {
+        return no;
     }
 
-    public void setRno(String rno) {
-        this.rno = rno;
+    public void setNo(String no) {
+        this.no = no;
     }
 
     public String getRegion() {
@@ -46,7 +46,7 @@ public class Genshin_region {
     @Override
     public String toString() {
         return "Genshin_region{" +
-                "rno='" + rno + '\'' +
+                "no='" + no + '\'' +
                 ", region='" + region + '\'' +
                 ", region_c='" + region_c + '\'' +
                 '}';

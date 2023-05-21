@@ -1,5 +1,6 @@
 package com.faintdream.mybatis.mapper;
 
+import com.faintdream.mybatis.genshin.data.RoleQuery;
 import com.faintdream.mybatis.pojo.Genshin_region;
 import com.faintdream.mybatis.pojo.Genshin_role_detail;
 import com.faintdream.mybatis.util.SqlSessionUtil;
@@ -37,11 +38,20 @@ public class Genshin_role_detailMapperTest {
         List<Genshin_role_detail> roles = MAPPER.selectAll();
         roles.forEach(role->{System.err.println(role);});
 
+
     }
 
     @Test
     public void selectById(){
         Genshin_role_detail role = MAPPER.selectById("4");
         System.err.println(role);
+
+        RoleQuery roleQuery = new RoleQuery();
+        roleQuery.update();
+        System.out.println(roleQuery.getName(role.getId()).getName_c());
+        System.out.println(roleQuery.getSex(role.getSex()).getSex_c());
+        System.out.println(roleQuery.getElemental_type(role.getElemental_type()).getType_c());
+        System.out.println(roleQuery.getRegion(role.getRegion()).getRegion_c());
+        System.out.println(roleQuery.getWeapons_type(role.getWeapons_type()).getWeapons_c());
     }
 }
