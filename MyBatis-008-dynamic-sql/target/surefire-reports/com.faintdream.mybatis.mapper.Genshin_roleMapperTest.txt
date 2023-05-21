@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.faintdream.mybatis.mapper.Genshin_roleMapperTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec

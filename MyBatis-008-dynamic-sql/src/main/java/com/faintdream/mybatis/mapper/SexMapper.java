@@ -1,5 +1,7 @@
 package com.faintdream.mybatis.mapper;
 
+import com.faintdream.mybatis.sot.SelectAllSOT;
+
 import java.util.List;
 
 /**
@@ -8,10 +10,6 @@ import java.util.List;
  * @version 1.0
  * @since 1.0
  * */
-public interface SexMapper<P> {
-    /**
-     * 查询所有数据
-     * @return 查询结果
-     * */
-    public List<P> selectAll();
+public interface SexMapper<P> extends SelectAllSOT<P> {
+
 }

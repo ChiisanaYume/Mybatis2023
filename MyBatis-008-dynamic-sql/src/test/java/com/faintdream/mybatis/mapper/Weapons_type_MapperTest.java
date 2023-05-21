@@ -11,14 +11,14 @@ import java.util.List;
 public class Weapons_type_MapperTest {
 
     public final static SqlSession SQL_SESSION;
-    public final static Weapons_type_Mapper<Weapons_type> MAPPER;
+    public final static Weapons_typeMapper<Weapons_type> MAPPER;
 
     /*查询数据的mapper对象*/
     static {
         try {
             SQL_SESSION = SqlSessionUtil.openSqlSession();
             // 面向接口获取代理对象
-            MAPPER = SQL_SESSION.getMapper(Weapons_type_Mapper.class);
+            MAPPER = SQL_SESSION.getMapper(Weapons_typeMapper.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

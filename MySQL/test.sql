@@ -53,3 +53,11 @@ VALUES
     ('10', '2', '6', '2', '5'),
     ('11', '2', '5', '1', '4');
 DROP TABLE t_genshin_role_detail;
+
+/*消除外键约束*/
+ALTER TABLE t_genshin_role_detail DROP FOREIGN KEY fk_t_sex;
+/*修改属性*/
+ALTER TABLE t_sex CHANGE sno no int(2);
+/*添加外键约束*/
+ALTER TABLE t_genshin_role_detail ADD CONSTRAINT fk_t_sex FOREIGN KEY (sex)
+    REFERENCES t_sex (no);

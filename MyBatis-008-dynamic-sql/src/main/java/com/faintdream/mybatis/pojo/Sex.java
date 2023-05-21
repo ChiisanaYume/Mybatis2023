@@ -6,24 +6,25 @@ package com.faintdream.mybatis.pojo;
  * @version 1.0
  * */
 public class Sex {
-    private String sno;
+    private String no;
     private String sex;
     private String sex_c;
 
-    public Sex(){}
-
-    public Sex(String sno, String sex, String sex_c) {
-        this.sno = sno;
+    public Sex(String no, String sex, String sex_c) {
+        this.no = no;
         this.sex = sex;
         this.sex_c = sex_c;
     }
 
-    public String getSno() {
-        return sno;
+    public Sex() {
     }
 
-    public void setSno(String sno) {
-        this.sno = sno;
+    public String getNo() {
+        return no;
+    }
+
+    public void setNo(String no) {
+        this.no = no;
     }
 
     public String getSex() {
@@ -40,12 +41,5 @@ public class Sex {
 
     public void setSex_c(String sex_c) {
         this.sex_c = sex_c;
-    }
-
-    @Override
-    public String toString() {
-        return "Sex{" +
-                "sex_c='" + sex_c + '\'' +
-                '}';
     }
 }

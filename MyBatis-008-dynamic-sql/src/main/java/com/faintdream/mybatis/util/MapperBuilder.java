@@ -1,18 +1,21 @@
 package com.faintdream.mybatis.util;
 
-import com.faintdream.mybatis.mapper.Elemental_typeMapper;
-import com.faintdream.mybatis.mapper.SexMapper;
-import com.faintdream.mybatis.pojo.Elemental_type;
-import com.faintdream.mybatis.pojo.Sex;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.session.SqlSession;
-
 import java.io.IOException;
 
+/**
+ * 构建一个Mapper对象
+ * @author faintdream
+ * @version 1.0
+ * */
 public class MapperBuilder<M>{
-    public Class<M> mapperClass;
 
-    /*查询数据的mapper对象*/
+    /**
+     * 构建对象的。。。
+     * */
+    private Class<M> mapperClass;
+
+
     public MapperBuilder(Class<M> mapperClass){
         this.mapperClass = mapperClass;
     }
@@ -22,6 +25,10 @@ public class MapperBuilder<M>{
 
     }
 
+    /**
+     * 构建一个Mapper对象
+     * @return mapper对象
+     * */
     public M getMapper(){
         try {
             SqlSession sqlSession = SqlSessionUtil.openSqlSession();

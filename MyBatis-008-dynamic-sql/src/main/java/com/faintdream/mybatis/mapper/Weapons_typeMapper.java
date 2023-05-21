@@ -9,6 +9,6 @@ import com.faintdream.mybatis.sot.SelectAllSOT;
  * @version 1.0
  * @since 1.0
  * */
-public interface Weapons_type_Mapper<P> extends SelectAllSOT<P>{
+public interface Weapons_typeMapper<P> extends SelectAllSOT<P>{
 
 }
