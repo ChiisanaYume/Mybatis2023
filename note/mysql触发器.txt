@@ -1,0 +1,19 @@
+DELIMITER //
+
+CREATE TRIGGER trg_check_rarity
+BEFORE INSERT ON t_genshin_role_detail
+FOR EACH ROW
+BEGIN
+    IF NEW.rarity NOT IN (4, 5) THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'rarity字段的值只能为4或5';
+    END IF;
+END //
+
+DELIMITER ;
+
+/*
+上述代码创建了一个名为trg_check_rarity的触发器，它在每次向t_genshin_role_detail表插入数据之前触发。触发器检查新插入的行的rarity字段的值是否为4或5，如果不是，则触发一个自定义的错误消息。这样，如果插入的rarity字段值不符合约束条件，将会抛出一个错误。
+
+请注意，一旦触发器创建后，对t_genshin_role_detail表的插入操作将受到此约束的限制。
+*/

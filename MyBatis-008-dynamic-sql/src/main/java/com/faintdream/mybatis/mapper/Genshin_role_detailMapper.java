@@ -14,4 +14,10 @@ import java.util.List;
 public interface Genshin_role_detailMapper<P,String> extends SelectAllSOT<P>, SelectByIdSOT<P,String> {
 
     public List<P> select();
+
+    /**
+     * 根据id查询数据，如果id为空,则返回所有数据
+     * @param id 查询id
+     * */
+    public List<P> selectD1(java.lang.String id);
 }

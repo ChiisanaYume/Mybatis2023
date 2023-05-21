@@ -12,7 +12,18 @@ public class Genshin_role_detail {
     private String region;
     private String weapons_type;
 
+    private String rarity;
+
     public Genshin_role_detail(){}
+
+    public Genshin_role_detail(String id, String sex, String elemental_type, String region, String weapons_type, String rarity) {
+        this.id = id;
+        this.sex = sex;
+        this.elemental_type = elemental_type;
+        this.region = region;
+        this.weapons_type = weapons_type;
+        this.rarity = rarity;
+    }
 
     public Genshin_role_detail(String id, String sex, String elemental_type, String region, String weapons_type) {
         this.id = id;
@@ -60,6 +71,14 @@ public class Genshin_role_detail {
 
     public void setWeapons_type(String weapons_type) {
         this.weapons_type = weapons_type;
+    }
+
+    public String getRarity() {
+        return rarity;
+    }
+
+    public void setRarity(String rarity) {
+        this.rarity = rarity;
     }
 
     @Override

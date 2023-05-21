@@ -705,3 +705,132 @@
 2023-05-21 17:44:40.194 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==>  Preparing: select * from t_weapons_type;
 2023-05-21 17:44:40.195 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==> Parameters: 
 2023-05-21 17:44:40.197 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - <==      Total: 6
+2023-05-21 23:13:53.526 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-21 23:13:53.549 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.549 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.549 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.550 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.550 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.550 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.551 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:13:53.551 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.389 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-21 23:16:18.414 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.414 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.414 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.415 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.415 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.415 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.415 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.415 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:16:18.622 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-21 23:16:18.971 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 822232612.
+2023-05-21 23:16:18.971 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31024624]
+2023-05-21 23:16:18.977 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==>  Preparing: select * from t_genshin_role_detail where 666!=888
+2023-05-21 23:16:19.029 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==> Parameters: 
+2023-05-21 23:16:19.099 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - <==      Total: 35
+2023-05-21 23:16:19.105 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==>  Preparing: select * from t_genshin_role;
+2023-05-21 23:16:19.106 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==> Parameters: 
+2023-05-21 23:16:19.121 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - <==      Total: 66
+2023-05-21 23:16:19.123 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==>  Preparing: select * from t_sex;
+2023-05-21 23:16:19.124 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==> Parameters: 
+2023-05-21 23:16:19.126 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - <==      Total: 3
+2023-05-21 23:16:19.128 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==>  Preparing: select * from t_elemental_type;
+2023-05-21 23:16:19.128 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:16:19.130 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - <==      Total: 8
+2023-05-21 23:16:19.132 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==>  Preparing: SELECT * FROM t_genshin_region;
+2023-05-21 23:16:19.133 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==> Parameters: 
+2023-05-21 23:16:19.135 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - <==      Total: 7
+2023-05-21 23:16:19.137 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==>  Preparing: select * from t_weapons_type;
+2023-05-21 23:16:19.137 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:16:19.139 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - <==      Total: 6
+2023-05-21 23:18:59.392 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-21 23:18:59.411 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.412 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.412 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.412 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.412 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.412 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.413 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.413 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:18:59.591 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-21 23:18:59.893 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 276748028.
+2023-05-21 23:18:59.894 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@107ed6fc]
+2023-05-21 23:18:59.900 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==>  Preparing: select * from t_genshin_role_detail where 666!=888
+2023-05-21 23:18:59.961 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==> Parameters: 
+2023-05-21 23:19:00.031 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - <==      Total: 35
+2023-05-21 23:19:00.035 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==>  Preparing: select * from t_genshin_role;
+2023-05-21 23:19:00.036 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:00.055 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - <==      Total: 66
+2023-05-21 23:19:00.057 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==>  Preparing: select * from t_sex;
+2023-05-21 23:19:00.058 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:00.060 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - <==      Total: 3
+2023-05-21 23:19:00.062 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==>  Preparing: select * from t_elemental_type;
+2023-05-21 23:19:00.062 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:00.065 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - <==      Total: 8
+2023-05-21 23:19:00.067 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==>  Preparing: SELECT * FROM t_genshin_region;
+2023-05-21 23:19:00.067 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:00.069 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - <==      Total: 7
+2023-05-21 23:19:00.072 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==>  Preparing: select * from t_weapons_type;
+2023-05-21 23:19:00.072 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:00.075 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - <==      Total: 6
+2023-05-21 23:19:40.609 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-21 23:19:40.630 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.630 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.630 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.630 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.631 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.631 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.631 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.631 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:19:40.822 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-21 23:19:41.112 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1902801188.
+2023-05-21 23:19:41.113 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@716a7124]
+2023-05-21 23:19:41.118 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==>  Preparing: select * from t_genshin_role_detail where 666!=888
+2023-05-21 23:19:41.175 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==> Parameters: 
+2023-05-21 23:19:41.235 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - <==      Total: 35
+2023-05-21 23:19:41.238 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==>  Preparing: select * from t_genshin_role;
+2023-05-21 23:19:41.239 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:41.252 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - <==      Total: 66
+2023-05-21 23:19:41.254 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==>  Preparing: select * from t_sex;
+2023-05-21 23:19:41.255 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:41.257 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - <==      Total: 3
+2023-05-21 23:19:41.258 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==>  Preparing: select * from t_elemental_type;
+2023-05-21 23:19:41.259 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:41.262 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - <==      Total: 8
+2023-05-21 23:19:41.263 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==>  Preparing: SELECT * FROM t_genshin_region;
+2023-05-21 23:19:41.264 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:41.266 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - <==      Total: 7
+2023-05-21 23:19:41.267 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==>  Preparing: select * from t_weapons_type;
+2023-05-21 23:19:41.268 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:19:41.270 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - <==      Total: 6
+2023-05-21 23:30:37.439 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-05-21 23:30:37.460 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.460 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.460 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.460 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.460 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.461 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.461 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.461 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-05-21 23:30:37.640 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-05-21 23:30:37.949 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 659059448.
+2023-05-21 23:30:37.949 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@274872f8]
+2023-05-21 23:30:37.955 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==>  Preparing: select * from t_genshin_role_detail where 666!=888
+2023-05-21 23:30:38.014 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - ==> Parameters: 
+2023-05-21 23:30:38.076 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectD1 - <==      Total: 35
+2023-05-21 23:30:38.078 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==>  Preparing: select * from t_genshin_role;
+2023-05-21 23:30:38.079 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - ==> Parameters: 
+2023-05-21 23:30:38.095 DEBUG com.faintdream.mybatis.mapper.Genshin_roleMapper.selectAll - <==      Total: 66
+2023-05-21 23:30:38.098 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==>  Preparing: select * from t_sex;
+2023-05-21 23:30:38.099 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==> Parameters: 
+2023-05-21 23:30:38.101 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - <==      Total: 3
+2023-05-21 23:30:38.103 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==>  Preparing: select * from t_elemental_type;
+2023-05-21 23:30:38.103 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:30:38.106 DEBUG com.faintdream.mybatis.mapper.Elemental_typeMapper.selectAll - <==      Total: 8
+2023-05-21 23:30:38.107 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==>  Preparing: SELECT * FROM t_genshin_region;
+2023-05-21 23:30:38.108 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - ==> Parameters: 
+2023-05-21 23:30:38.110 DEBUG com.faintdream.mybatis.mapper.Genshin_regionMapper.selectAll - <==      Total: 7
+2023-05-21 23:30:38.112 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==>  Preparing: select * from t_weapons_type;
+2023-05-21 23:30:38.113 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==> Parameters: 
+2023-05-21 23:30:38.116 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - <==      Total: 6

@@ -14,4 +14,6 @@ public interface DynamicMapper<P> {
      * 查询所有数据
      * */
     public List<P> selectAll();
+
+
 }

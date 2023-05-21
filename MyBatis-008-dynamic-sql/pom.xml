@@ -48,5 +48,12 @@
             <version>1.2.11</version>
             <!--<scope>test</scope>-->
         </dependency>
+        <!-- idea jetbrains库-->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.0.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 </project>

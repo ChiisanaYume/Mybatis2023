@@ -5,6 +5,8 @@ import com.faintdream.mybatis.pojo.Genshin_region;
 import com.faintdream.mybatis.pojo.Genshin_role_detail;
 import com.faintdream.mybatis.util.SqlSessionUtil;
 import org.apache.ibatis.session.SqlSession;
+import org.jetbrains.annotations.NotNull;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -42,7 +44,7 @@ public class Genshin_role_detailMapperTest {
     }
 
     @Test
-    public void selectById(){
+    public void selectByIdTest(){
         Genshin_role_detail role = MAPPER.selectById("4");
         System.err.println(role);
 
@@ -53,5 +55,33 @@ public class Genshin_role_detailMapperTest {
         System.out.println(roleQuery.getElemental_type(role.getElemental_type()).getType_c());
         System.out.println(roleQuery.getRegion(role.getRegion()).getRegion_c());
         System.out.println(roleQuery.getWeapons_type(role.getWeapons_type()).getWeapons_c());
+    }
+
+    @Test
+    public void SelectByD1Test(){
+        List<Genshin_role_detail> roles = MAPPER.selectD1(null);
+        show(roles);
+    }
+
+    @Ignore
+    public static void show(@NotNull final List<Genshin_role_detail> roles){
+        RoleQuery roleQuery = new RoleQuery();
+        roleQuery.update();
+
+        roles.forEach(role->{
+            System.out.print(roleQuery.getName(role.getId()).getName_c());
+            System.out.print(",");
+            System.out.print(roleQuery.getSex(role.getSex()).getSex_c());
+            System.out.print(",");
+            System.out.print(roleQuery.getElemental_type(role.getElemental_type()).getType_c());
+            System.out.print(",");
+            System.out.print(roleQuery.getRegion(role.getRegion()).getRegion_c());
+            System.out.print(",");
+            System.out.print(roleQuery.getWeapons_type(role.getWeapons_type()).getWeapons_c());
+            System.out.print(",");
+            System.out.print(role.getRarity());
+            System.out.println();
+        });
+
     }
 }

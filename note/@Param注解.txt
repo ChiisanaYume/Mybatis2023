@@ -1,0 +1,31 @@
+在 MyBatis 中，`@Param` 注解用于标记方法参数，在 SQL 语句中引用这些参数。这个注解提供了一个可选的参数名称，用于在 SQL 语句中引用具体的参数值。
+
+`@Param` 注解的作用是告诉 MyBatis 在执行 SQL 语句时如何将参数值与 SQL 中的占位符进行匹配。默认情况下，MyBatis 使用参数的位置来匹配 SQL 中的占位符，但是当方法有多个参数或者参数是一个复杂的对象时，使用 `@Param` 注解可以明确指定参数与占位符之间的映射关系。
+
+使用 `@Param` 注解的语法如下：
+```java
+@Param("parameterName")
+```
+
+其中，`"parameterName"` 是参数的名称，用于在 SQL 语句中引用该参数的值。
+
+下面是一个示例，展示了如何在 MyBatis 的映射文件中使用 `@Param` 注解：
+
+```xml
+<select id="getUserById" resultType="com.example.model.User">
+  SELECT * FROM users WHERE id = #{userId} AND name = #{userName}
+</select>
+```
+
+对应的 Java 方法如下：
+```java
+User getUserById(@Param("userId") int id, @Param("userName") String name);
+```
+
+在上述示例中，通过 `@Param` 注解为方法参数提供了名称，使得在 SQL 语句中可以引用具体的参数值。
+
+使用 `@Param` 注解可以提高 SQL 语句的可读性和维护性，尤其是当方法有多个参数时。它允许明确指定参数与占位符之间的关系，避免了参数位置的混淆。
+
+请注意，在 MyBatis 3.5.0 版本之后，对于单个参数的情况，可以不使用 `@Param` 注解，直接引用参数即可。
+
+希望这个简要介绍对你有所帮助。如有任何进一步的问题，请随时提问。
