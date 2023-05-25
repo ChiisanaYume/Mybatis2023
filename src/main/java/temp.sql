@@ -177,4 +177,3 @@ INSERT INTO t_weapons_type (tno,weapons,weapons_c) VALUES(1,'Sword','单手剑')
 
 SELECT * FROM t_weapons_type;
 
-desc t_car;
