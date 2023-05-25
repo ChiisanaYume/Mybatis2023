@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Apache-PDFBox-test" />
         <module name="junit-test" />
         <module name="MyBatis-005-web" />
-        <module name="Apache-PDFBox-test" />
         <module name="MyBatis-001-introduction" />
         <module name="MyBatis-003-configuration" />
-        <module name="cmd-test" />
         <module name="Tesseract-OCR-test" />
+        <module name="cmd-test" />
         <module name="Mybatis-007-skill" />
+        <module name="java-syntax-test" />
         <module name="Mybatis-006-crud" />
         <module name="MyBatis-002-crud" />
         <module name="MyBatis-008-dynamic-sql" />

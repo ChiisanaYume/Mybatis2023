@@ -16,19 +16,27 @@
     <dependencies>
 
         <!-- Tesseract OCR API -->
+        <!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
         <dependency>
             <groupId>net.sourceforge.tess4j</groupId>
             <artifactId>tess4j</artifactId>
-            <version>4.5.4</version>
+            <version>5.7.0</version>
         </dependency>
 
-        <!-- Tesseract OCR 依赖的 Native Library -->
+        <!-- SLF4J API -->
         <dependency>
-            <groupId>net.sourceforge.tess4j</groupId>
-            <artifactId>tess4j-platform</artifactId>
-            <version>4.5.4</version>
-            <classifier>windows-x64</classifier> <!-- 根据操作系统选择对应的分类器 -->
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.32</version>
         </dependency>
 
+        <!-- logback 日志框架-->
+        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.11</version>
+            <!--<scope>test</scope>-->
+        </dependency>
     </dependencies>
 </project>
