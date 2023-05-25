@@ -24,7 +24,7 @@ public class VariableCheck2 extends SafetyCheck{
         String line;
 
         while ((line = reader.readLine()) != null) {
-            System.out.println(line);
+            // System.out.println(line);
             // System.out.println("+++++++提取Key+++++++");
             String key = line.substring(0, line.indexOf("="));
 

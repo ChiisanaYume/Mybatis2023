@@ -21,7 +21,7 @@ public class Genshin_role_detailMapperTest {
 
 
     public final static SqlSession SQL_SESSION;
-    public final static Genshin_role_detailMapper<Genshin_role_detail,String> MAPPER;
+    public final static Genshin_role_detailMapper MAPPER;
 
     /*查询数据的mapper对象*/
     static {
@@ -61,8 +61,56 @@ public class Genshin_role_detailMapperTest {
     public void SelectByD1Test(){
         List<Genshin_role_detail> roles = MAPPER.selectD1(null);
         show(roles);
+
+        roles = MAPPER.selectD1("8");
+        show(roles);
     }
 
+    @Test
+    public void SelectByD2Test(){
+        List<Genshin_role_detail> roles = MAPPER.selectD2(null,null,null);
+        show(roles);
+        System.out.println("↑↑说有角色↑↑");
+
+        roles = MAPPER.selectD2("1",null,null);
+        show(roles);
+        System.out.println("↑↑男角色↑↑");
+
+        roles = MAPPER.selectD2("2",null,null);
+        show(roles);
+        System.out.println("↑↑女角色↑↑");
+
+        roles = MAPPER.selectD2("","6",null);
+        show(roles);
+        System.out.println("↑↑火属性↑↑");
+
+        roles = MAPPER.selectD2("2","6",null);
+        show(roles);
+        System.out.println("↑↑火属性女角色↑↑");
+
+        roles = MAPPER.selectD2("2","6","5");
+        show(roles);
+        System.out.println("↑↑火属性女长枪角色↑↑");
+    }
+
+    @Test
+    public void selectD3Test(){
+        List<Genshin_role_detail> roles = MAPPER.selectD3(null,null,null);
+        show(roles);
+        System.out.println("↑↑没有任何条件,查女角色↑↑");
+
+        roles = MAPPER.selectD3(null,null,"1");
+        show(roles);
+        System.out.println("↑↑不查女角色了，我查男的↑↑");
+
+        roles = MAPPER.selectD3(null,"1","1");
+        show(roles);
+        System.out.println("↑↑查单手剑的，查不到我就查女的↑↑");
+
+        roles = MAPPER.selectD3("7","1","1");
+        show(roles);
+        System.out.println("↑↑查冰系的,查不到我就查单手剑的，再查不到我就查女的↑↑");
+    }
     @Ignore
     public static void show(@NotNull final List<Genshin_role_detail> roles){
         RoleQuery roleQuery = new RoleQuery();

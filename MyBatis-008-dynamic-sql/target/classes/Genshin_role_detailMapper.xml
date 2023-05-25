@@ -19,8 +19,40 @@
     <select id="selectD1" resultType="Genshin_role_detail" parameterType="java.lang.String">
         select * from t_genshin_role_detail where
         <if test="id != null and id != '' ">
-            id = #{id}
+            id = #{id} AND
         </if>
+        666=666
+    </select>
+    <select id="selectD2" resultType="Genshin_role_detail">
+        SELECT * FROM t_genshin_role_detail WHERE
+        <if test="sex!=null and sex !='' ">
+            sex = #{sex} AND
+        </if>
+        <if test="elemental_type!=null and elemental_type !='' ">
+            elemental_type = #{elemental_type} AND
+        </if>
+        <if test="weapons_type!=null and weapons_type !='' ">
+            weapons_type = #{weapons_type} AND
+        </if>
+        666!=888
+    </select>
+
+    <select id="selectD3" resultType="Genshin_role_detail">
+        SELECT * FROM t_genshin_role_detail WHERE
+        <choose>
+            <when test="elemental_type!=null and elemental_type !='' ">
+                elemental_type = #{elemental_type} AND
+            </when>
+            <when test="weapons_type!=null and weapons_type !='' ">
+                weapons_type = #{weapons_type} AND
+            </when>
+            <when test="sex!=null and sex !='' ">
+                sex = #{sex} AND
+            </when>
+            <otherwise>
+                sex = 2 AND
+            </otherwise>
+        </choose>
         666!=888
     </select>
 </mapper>

@@ -28,17 +28,19 @@ public class FSwev implements Swev {
      */
     @Override
     public boolean set(String variable, String value) throws IOException {
+
+        Process process = null;
         try {
 
             // 设置环境变量前的安全检查
-            check(variable,value);
+            check(variable, value);
 
             // 设置环境变量
             String[] command = {"cmd", "/c", "setX", "/m", variable, value};
             if (varDefaultType == USER_VARIABLE) {
                 command = new String[]{"cmd", "/c", "setX", variable, value};
             }
-            Process process = Runtime.getRuntime().exec(command);
+            process = Runtime.getRuntime().exec(command);
 
             // 处理命令输出流
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -61,6 +63,11 @@ public class FSwev implements Swev {
             }
         } catch (InterruptedException | IOException e) {
             throw new IOException(e);
+        } finally {
+            if(process!=null){
+                process.destroy();
+            }
+
         }
 
         // 没有异常证明程序正常执行，返回true

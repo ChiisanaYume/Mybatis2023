@@ -19,9 +19,9 @@ public class EnvVariablesDemo2 {
 
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
-                System.out.println("+++++++提取Key+++++++");
-                String key = line.substring(0, line.indexOf("="));
-                System.out.println(key);
+                //System.out.println("+++++++提取Key+++++++");
+                //String key = line.substring(0, line.indexOf("="));
+                //System.out.println(key);
             }
 
             //关闭 reader 和 process
