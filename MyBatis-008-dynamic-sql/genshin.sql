@@ -38,9 +38,7 @@ CREATE TABLE `t_elemental_type` (
 --
 
 LOCK TABLES `t_elemental_type` WRITE;
-/*!40000 ALTER TABLE `t_elemental_type` DISABLE KEYS */;
 INSERT INTO `t_elemental_type` VALUES (0,'nothing','无'),(1,'Anemo','风'),(2,'Geo','岩'),(3,'Electro','雷'),(4,'Dendro','草'),(5,'Hydro','水'),(6,'Pyro','火'),(7,'Cryo','冰');
-/*!40000 ALTER TABLE `t_elemental_type` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -66,9 +64,7 @@ CREATE TABLE `t_genshin_region` (
 --
 
 LOCK TABLES `t_genshin_region` WRITE;
-/*!40000 ALTER TABLE `t_genshin_region` DISABLE KEYS */;
-INSERT INTO `t_genshin_region` VALUES (1,'Mondstadt','蒙德'),(2,'Liyue','璃月'),(3,'Inazuma','稻妻'),(4,'Sumeru','须弥'),(5,'Fontaine','枫丹'),(6,'Natlan','纳塔'),(7,'Snezhnaya','至冬');
-/*!40000 ALTER TABLE `t_genshin_region` ENABLE KEYS */;
+INSERT INTO `t_genshin_region` VALUES (0,'Unknown','未知'),(1,'Mondstadt','蒙德'),(2,'Liyue','璃月'),(3,'Inazuma','稻妻'),(4,'Sumeru','须弥'),(5,'Fontaine','枫丹'),(6,'Natlan','纳塔'),(7,'Snezhnaya','至冬');
 UNLOCK TABLES;
 
 --
@@ -82,11 +78,10 @@ CREATE TABLE `t_genshin_role` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键;自然标识',
   `name` varchar(255) NOT NULL COMMENT '角色名',
   `name_c` varchar(255) DEFAULT NULL COMMENT '角色名(中文)',
-  `new_column` varchar(50) NOT NULL DEFAULT 'default_value',
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`),
   UNIQUE KEY `name_c` (`name_c`)
-) ENGINE=InnoDB AUTO_INCREMENT=90 DEFAULT CHARSET=utf8 COMMENT='角色基础信息表';
+) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=utf8 COMMENT='角色基础信息表';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -94,9 +89,7 @@ CREATE TABLE `t_genshin_role` (
 --
 
 LOCK TABLES `t_genshin_role` WRITE;
-/*!40000 ALTER TABLE `t_genshin_role` DISABLE KEYS */;
-INSERT INTO `t_genshin_role` VALUES (4,'Yaoyao','瑶瑶','default_value'),(5,'Klee','可莉','default_value'),(7,'Nahida','纳西妲','default_value'),(8,'Amber','安柏','default_value'),(9,'Barbara','芭芭拉','default_value'),(10,'Hu Tao','胡桃','default_value'),(11,'Mona','莫娜','default_value'),(13,'Jean','琴','default_value'),(14,'Keqing','刻晴','default_value'),(15,'Kirara','琦良良','default_value'),(16,'Diona','迪奥娜','default_value'),(17,'Zhongli','钟离','default_value'),(18,'Xiao','魈','default_value'),(19,'Yelan','夜兰','default_value'),(20,'Xiangling','香菱','default_value'),(21,'Baizhu','白术','default_value'),(22,'Chongyun','重云','default_value'),(23,'Xinyan','辛焱','default_value'),(24,'Xingqiu','行秋','default_value'),(25,'Shenhe','申鹤','default_value'),(26,'Ganyu','甘雨','default_value'),(27,'Yanfei','烟绯','default_value'),(28,'Beidou','北斗','default_value'),(29,'Ningguan','凝光','default_value'),(30,'Yun Jin','云堇','default_value'),(31,'Qiqi','七七','default_value'),(32,'Mika','米卡','default_value'),(33,'Albedo','阿贝多','default_value'),(34,'Diluc','迪卢克','default_value'),(35,'Noelle','诺艾尔','default_value'),(36,'Fishl','菲谢尔','default_value'),(37,'Rosaria','罗莎莉亚','default_value'),(38,'Sucrose','砂糖','default_value'),(39,'Bennett','班尼特','default_value'),(40,'Kaeya','凯亚','default_value'),(41,'Eula','优菈','default_value'),(42,'Lisa','丽莎','default_value'),(43,'Venti','温迪','default_value'),(46,'Shikanoin Heizou','鹿目院平藏','default_value'),(47,'Kuki Shinobu','久岐忍','default_value'),(48,'Raiden Shogun','雷电将军','default_value'),(49,'Arataki Itto','荒泷一斗','default_value'),(50,'Kamisato Ayaka','神里凌华','default_value'),(51,'Kamisato Ayato','神里凌人','default_value'),(52,'Sangonemiya Kokomi','珊瑚宫心海','default_value'),(53,'Kaedehara Kazuha','枫原万叶','default_value'),(54,'Sayu','早柚','default_value'),(55,'Thoma','托马','default_value'),(56,'Yoimiya','宵宫','default_value'),(57,'Yae Miko','八重神子','default_value'),(58,'Gorou','五郎','default_value'),(59,'Kujou Sara','九条裟罗','default_value'),(72,'Nilou','妮露','default_value'),(73,'Collei','柯莱','default_value'),(74,'Dori','多莉','default_value'),(75,'Tighnari','提纳里','default_value'),(76,'Cyno','赛诺','default_value'),(77,'Candace','坎蒂丝','default_value'),(78,'Layla','莱依拉','default_value'),(79,'Dehya','迪希雅','default_value'),(80,'Faruzan','珐露姗','default_value'),(81,'Alhaitham','艾尔海森','default_value'),(82,'Kaveh','卡维','default_value'),(83,'Tartaglia','达达利亚','default_value'),(86,'Lumine','荧','default_value'),(89,'Aether','空','default_value');
-/*!40000 ALTER TABLE `t_genshin_role` ENABLE KEYS */;
+INSERT INTO `t_genshin_role` VALUES (4,'Yaoyao','瑶瑶'),(5,'Klee','可莉'),(7,'Nahida','纳西妲'),(8,'Amber','安柏'),(9,'Barbara','芭芭拉'),(10,'Hu Tao','胡桃'),(11,'Mona','莫娜'),(13,'Jean','琴'),(14,'Keqing','刻晴'),(15,'Kirara','琦良良'),(16,'Diona','迪奥娜'),(17,'Zhongli','钟离'),(18,'Xiao','魈'),(19,'Yelan','夜兰'),(20,'Xiangling','香菱'),(21,'Baizhu','白术'),(22,'Chongyun','重云'),(23,'Xinyan','辛焱'),(24,'Xingqiu','行秋'),(25,'Shenhe','申鹤'),(26,'Ganyu','甘雨'),(27,'Yanfei','烟绯'),(28,'Beidou','北斗'),(29,'Ningguan','凝光'),(30,'Yun Jin','云堇'),(31,'Qiqi','七七'),(32,'Mika','米卡'),(33,'Albedo','阿贝多'),(34,'Diluc','迪卢克'),(35,'Noelle','诺艾尔'),(36,'Fishl','菲谢尔'),(37,'Rosaria','罗莎莉亚'),(38,'Sucrose','砂糖'),(39,'Bennett','班尼特'),(40,'Kaeya','凯亚'),(41,'Eula','优菈'),(42,'Lisa','丽莎'),(43,'Venti','温迪'),(46,'Shikanoin Heizou','鹿目院平藏'),(47,'Kuki Shinobu','久岐忍'),(48,'Raiden Shogun','雷电将军'),(49,'Arataki Itto','荒泷一斗'),(50,'Kamisato Ayaka','神里凌华'),(51,'Kamisato Ayato','神里凌人'),(52,'Sangonemiya Kokomi','珊瑚宫心海'),(53,'Kaedehara Kazuha','枫原万叶'),(54,'Sayu','早柚'),(55,'Thoma','托马'),(56,'Yoimiya','宵宫'),(57,'Yae Miko','八重神子'),(58,'Gorou','五郎'),(59,'Kujou Sara','九条裟罗'),(72,'Nilou','妮露'),(73,'Collei','柯莱'),(74,'Dori','多莉'),(75,'Tighnari','提纳里'),(76,'Cyno','赛诺'),(77,'Candace','坎蒂丝'),(78,'Layla','莱依拉'),(79,'Dehya','迪希雅'),(80,'Faruzan','珐露姗'),(81,'Alhaitham','艾尔海森'),(82,'Kaveh','卡维'),(83,'Tartaglia','达达利亚'),(86,'Lumine','荧'),(89,'Aether','空'),(90,'Aloy','埃洛伊');
 UNLOCK TABLES;
 
 --
@@ -132,9 +125,7 @@ CREATE TABLE `t_genshin_role_detail` (
 --
 
 LOCK TABLES `t_genshin_role_detail` WRITE;
-/*!40000 ALTER TABLE `t_genshin_role_detail` DISABLE KEYS */;
-INSERT INTO `t_genshin_role_detail` VALUES (4,2,4,2,5,4),(5,2,6,1,4,5),(7,2,4,4,4,5),(8,2,6,1,3,4),(9,2,5,1,4,4),(10,2,6,2,5,5),(11,2,5,1,4,5),(13,2,1,1,1,5),(14,2,3,2,1,5),(15,2,4,4,1,4),(16,2,7,1,3,4),(17,1,2,2,5,5),(18,1,1,2,5,5),(19,2,5,2,3,5),(20,2,6,2,5,4),(21,1,4,2,4,5),(22,1,7,2,2,4),(23,2,6,2,2,4),(24,1,5,2,1,4),(25,2,7,2,5,5),(26,2,7,2,3,5),(27,2,6,2,4,4),(28,2,3,2,2,4),(29,2,2,2,4,4),(30,2,2,2,5,4),(31,2,7,2,1,5),(32,1,7,1,5,4),(33,1,2,1,1,5),(34,1,6,1,2,5),(35,2,2,1,2,4),(36,2,3,1,3,4),(37,2,7,1,5,4),(38,2,1,1,4,4),(39,1,6,1,1,4),(40,1,7,1,1,4);
-/*!40000 ALTER TABLE `t_genshin_role_detail` ENABLE KEYS */;
+INSERT INTO `t_genshin_role_detail` VALUES (4,2,4,2,5,4),(5,2,6,1,4,5),(7,2,4,4,4,5),(8,2,6,1,3,4),(9,2,5,1,4,4),(10,2,6,2,5,5),(11,2,5,1,4,5),(13,2,1,1,1,5),(14,2,3,2,1,5),(15,2,4,4,1,4),(16,2,7,1,3,4),(17,1,2,2,5,5),(18,1,1,2,5,5),(19,2,5,2,3,5),(20,2,6,2,5,4),(21,1,4,2,4,5),(22,1,7,2,2,4),(23,2,6,2,2,4),(24,1,5,2,1,4),(25,2,7,2,5,5),(26,2,7,2,3,5),(27,2,6,2,4,4),(28,2,3,2,2,4),(29,2,2,2,4,4),(30,2,2,2,5,4),(31,2,7,2,1,5),(32,1,7,1,5,4),(33,1,2,1,1,5),(34,1,6,1,2,5),(35,2,2,1,2,4),(36,2,3,1,3,4),(37,2,7,1,5,4),(38,2,1,1,4,4),(39,1,6,1,1,4),(40,1,7,1,1,4),(41,2,7,1,2,5),(42,2,4,1,4,4),(43,1,1,1,3,5),(46,1,1,3,4,4),(47,2,3,3,1,4),(48,2,3,3,5,5),(49,1,2,3,2,5),(50,2,7,3,1,5),(51,1,5,3,1,5),(52,2,5,3,4,5),(53,1,1,3,1,5),(54,2,1,3,2,4),(55,1,6,3,5,4),(56,2,6,3,3,5),(57,2,3,3,4,5),(58,1,2,3,3,4),(59,2,3,3,3,4),(72,2,5,4,1,5),(73,2,4,4,3,4),(74,2,3,4,2,4),(75,1,4,4,3,5),(76,1,3,4,5,5),(77,2,5,4,5,4),(78,2,7,4,1,4),(79,2,6,4,2,5),(80,2,1,4,3,4),(81,1,4,4,1,5),(82,1,4,4,2,4),(83,1,5,7,3,5),(86,2,0,0,1,5),(89,1,0,0,1,5),(90,2,7,1,3,5);
 UNLOCK TABLES;
 
 --
@@ -160,9 +151,7 @@ CREATE TABLE `t_sex` (
 --
 
 LOCK TABLES `t_sex` WRITE;
-/*!40000 ALTER TABLE `t_sex` DISABLE KEYS */;
 INSERT INTO `t_sex` VALUES (1,'man','男'),(2,'women','女'),(3,'other','其他');
-/*!40000 ALTER TABLE `t_sex` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -188,9 +177,7 @@ CREATE TABLE `t_weapons_type` (
 --
 
 LOCK TABLES `t_weapons_type` WRITE;
-/*!40000 ALTER TABLE `t_weapons_type` DISABLE KEYS */;
 INSERT INTO `t_weapons_type` VALUES (0,'Other weapons','其他武器'),(1,'Sword','单手剑'),(2,'Claymore','双手剑'),(3,'Bow','弓'),(4,'Catalyst','法器'),(5,'Polearm','长柄武器');
-/*!40000 ALTER TABLE `t_weapons_type` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -202,4 +189,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-21 23:42:51
+-- Dump completed on 2023-05-26 21:27:17

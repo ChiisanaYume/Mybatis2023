@@ -39,7 +39,7 @@ public class Genshin_role_detailMapperTest {
 
         List<Genshin_role_detail> roles = MAPPER.selectAll();
         roles.forEach(role->{System.err.println(role);});
-
+        show(roles);
 
     }
 

@@ -1,0 +1,23 @@
+以下是一些常用的Git命令：
+
+1. git init：在当前目录初始化一个新的Git仓库。
+2. git clone <repository>：克隆（下载）一个远程Git仓库到本地。
+3. git add <file>：将文件添加到暂存区。
+4. git commit -m <message>：将暂存区的文件提交到本地仓库，并附上提交信息。
+5. git status：查看工作区和暂存区的状态。
+6. git log：查看提交日志。
+7. git pull：拉取远程仓库的最新代码到本地。
+8. git push：将本地的代码推送到远程仓库。
+9. git branch：查看分支列表。
+10. git checkout <branch>：切换到指定分支。
+11. git merge <branch>：将指定分支合并到当前分支。
+12. git remote add <name> <url>：添加一个远程仓库。
+13. git remote -v：查看远程仓库的详细信息。
+14. git diff：查看工作区和暂存区的差异。
+15. git reset <file>：将文件从暂存区移除，但保留在工作区。
+16. git reset --hard <commit>：将HEAD指针和工作区都重置到指定的提交。
+17. git stash：将当前工作区的改动暂存起来，以便后续恢复。
+18. git tag <tagname>：打标签，用于标记重要的提交或版本。
+19. git remote remove <name>：移除一个远程仓库。
+
+这只是一小部分常用的Git命令，Git还有许多其他功能强大的命令和选项，可根据具体需要进一步学习和探索。
