@@ -196,3 +196,66 @@ VALUES (73, 2, 4, 4, 3, 4),
        (86, 2, 1, 1, 1, 5),
        (89, 1, 1, 1, 1, 5),
        (74, 2, 3, 4, 2, 4);
+
+CREATE TABLE t_role_physique
+(
+    no         INT(2)       NOT NULL UNIQUE PRIMARY KEY COMMENT '主键;角色类型/体型编号(自然标识)',
+    physique   VARCHAR(255) NOT NULL UNIQUE COMMENT '角色类型/体型(英文)',
+    physique_c VARCHAR(255) NOT NULL UNIQUE COMMENT '角色类型/体型(中文)'
+
+) COMMENT ='角色类型/体型表(1成男，2成女，3少男，4少女，5正太，6萝莉...)';
+
+DESC t_role_physique;
+
+insert into t_role_physique (no, physique, physique_c)
+VALUES (0, 'Other Physique', '其他体型'),
+       (1, 'Male', '成男'),
+       (2, 'Female', '成女'),
+       (3, 'Boy', '少男'),
+       (4, 'Girl', '少女'),
+       (5, 'Shota', '正太'),
+       (6, 'Loli', '萝莉')
+
+select *
+from t_role_physique;
+
+ALTER TABLE t_genshin_role_detail
+    ADD COLUMN physique INT(2);
+
+ALTER TABLE t_genshin_role_detail
+    ADD COLUMN physique INT(2) COMMENT '角色类型/体型(1成男，2成女，3少男，4少女，5正太，6萝莉...)',
+    ADD CONSTRAINT fk_t_role_physique FOREIGN KEY (physique) REFERENCES t_role_physique (no);
+
+/*查询语句(中文)*/
+SELECT M.id,
+       t_genshin_role.name_c,
+       t_genshin_region.region_c,
+       t_sex.sex_c,
+       t_elemental_type.type_c,
+       t_weapons_type.weapons_c,
+       M.rarity,
+       t_role_physique.physique_c
+FROM t_genshin_role_detail M
+         LEFT JOIN t_genshin_role ON M.id = t_genshin_role.id
+         LEFT JOIN t_genshin_region ON M.region = t_genshin_region.no
+         LEFT JOIN t_sex ON M.sex = t_sex.no
+         LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no
+         LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no
+         LEFT JOIN t_role_physique on M.physique = t_role_physique.no;
+
+/*查询语句(英文)*/
+SELECT M.id,
+       t_genshin_role.name,
+       t_genshin_region.region,
+       t_sex.sex,
+       t_elemental_type.type,
+       t_weapons_type.weapons,
+       M.rarity,
+       t_role_physique.physique
+FROM t_genshin_role_detail M
+         LEFT JOIN t_genshin_role ON M.id = t_genshin_role.id
+         LEFT JOIN t_genshin_region ON M.region = t_genshin_region.no
+         LEFT JOIN t_sex ON M.sex = t_sex.no
+         LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no
+         LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no
+         LEFT JOIN t_role_physique on M.physique = t_role_physique.no;

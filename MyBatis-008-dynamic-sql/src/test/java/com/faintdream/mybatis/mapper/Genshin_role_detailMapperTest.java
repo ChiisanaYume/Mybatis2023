@@ -117,6 +117,8 @@ public class Genshin_role_detailMapperTest {
         roleQuery.update();
 
         roles.forEach(role->{
+            System.out.print(role.getId());
+            System.out.print(",");
             System.out.print(roleQuery.getName(role.getId()).getName_c());
             System.out.print(",");
             System.out.print(roleQuery.getSex(role.getSex()).getSex_c());
@@ -130,6 +132,13 @@ public class Genshin_role_detailMapperTest {
             System.out.print(role.getRarity());
             System.out.println();
         });
+
+    }
+
+    @Test
+    public void SelectByD4Test(){
+        List<Genshin_role_detail> roles = MAPPER.selectAll();
+        show(roles);
 
     }
 }
