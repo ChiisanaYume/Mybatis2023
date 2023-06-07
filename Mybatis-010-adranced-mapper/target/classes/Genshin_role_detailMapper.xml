@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的全限类名-->
+<mapper namespace="com.faintdream.mybatis.mapper.Genshin_role_detailMapper">
+
+    <resultMap id="Genshin_role_detail" type="Genshin_role_detail">
+        <result property="id" column="id"/>
+        <result property="sex" column="sex"/>
+        <result property="elemental_type" column="elemental_type"/>
+        <result property="region" column="region"/>
+        <result property="weapons_type" column="weapons_type"/>
+        <result property="rarity" column="rarity"/>
+        <result property="physique.no" column="physique"/>
+        <result property="physique.physique_c" column="physique_c"/>
+    </resultMap>
+
+    <select id="selectAll" resultType="Genshin_role_detail">
+        select *
+        from t_genshin_role_detail;
+    </select>
+
+    <select id="selectById" resultType="Genshin_role_detail" parameterType="java.lang.String">
+        select *
+        from t_genshin_role_detail
+        where id = #{id};
+    </select>
+    <select id="selectById2" resultMap="Genshin_role_detail" parameterType="java.lang.String">
+        SELECT M.id,M.sex,M.elemental_type,M.region,M.rarity,M.weapons_type,
+               t_role_physique.physique_c
+        FROM t_genshin_role_detail M
+        LEFT JOIN t_role_physique on M.physique = t_role_physique.no
+        WHERE id = #{id}
+
+    </select>
+
+</mapper>

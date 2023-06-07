@@ -1,0 +1,30 @@
+2023-06-08 07:50:56.980 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-08 07:50:57.005 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.005 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.005 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.006 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.006 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.006 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.006 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.007 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:50:57.146 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-08 07:50:57.499 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 500885941.
+2023-06-08 07:50:57.500 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ddae9b5]
+2023-06-08 07:50:57.507 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectById2 - ==>  Preparing: SELECT M.id,M.sex,M.elemental_type,M.region,M.rarity,M.weapons_type, t_role_physique.physique_c FROM t_genshin_role_detail M LEFT JOIN t_role_physique on M.physique = t_role_physique.no WHERE id = ?
+2023-06-08 07:50:57.575 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectById2 - ==> Parameters: 30(String)
+2023-06-08 07:50:57.636 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectById2 - <==      Total: 1
+2023-06-08 07:51:57.635 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-08 07:51:57.659 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.659 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.659 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.659 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.659 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.659 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.660 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.660 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-08 07:51:57.779 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-08 07:51:58.093 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 500885941.
+2023-06-08 07:51:58.093 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1ddae9b5]
+2023-06-08 07:51:58.099 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectById2 - ==>  Preparing: SELECT M.id,M.sex,M.elemental_type,M.region,M.rarity,M.weapons_type, t_role_physique.physique_c FROM t_genshin_role_detail M LEFT JOIN t_role_physique on M.physique = t_role_physique.no WHERE id = ?
+2023-06-08 07:51:58.158 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectById2 - ==> Parameters: 30(String)
+2023-06-08 07:51:58.216 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectById2 - <==      Total: 1

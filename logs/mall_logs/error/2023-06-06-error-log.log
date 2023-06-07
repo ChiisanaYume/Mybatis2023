@@ -1,0 +1,334 @@
+2023-06-06 18:56:38.272 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 18:56:38.299 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.299 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.300 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.300 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.300 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.300 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.301 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.301 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 18:56:38.513 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 18:56:38.931 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1491522744.
+2023-06-06 18:56:38.932 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58e6d4b8]
+2023-06-06 18:56:38.939 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==>  Preparing: select * from t_weapons_type;
+2023-06-06 18:56:39.009 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - ==> Parameters: 
+2023-06-06 18:56:39.092 DEBUG com.faintdream.mybatis.mapper.Weapons_typeMapper.selectAll - <==      Total: 6
+2023-06-06 19:19:10.501 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:19:10.528 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.528 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.528 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.528 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.528 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.529 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.529 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.529 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:19:10.714 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 19:19:11.069 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 2002790740.
+2023-06-06 19:19:11.070 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@77602954]
+2023-06-06 19:19:11.077 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==>  Preparing: select * from t_sex;
+2023-06-06 19:19:11.157 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - ==> Parameters: 
+2023-06-06 19:19:11.222 DEBUG com.faintdream.mybatis.mapper.SexMapper.selectAll - <==      Total: 3
+2023-06-06 19:35:26.716 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:35:26.739 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.740 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.740 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.740 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.740 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.740 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.741 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:35:26.741 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.851 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:49:09.874 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.874 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.874 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.874 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.874 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.875 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.875 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:09.875 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.943 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:49:16.966 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.966 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.966 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.966 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.967 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.967 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.967 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:16.967 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.123 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:49:33.145 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.146 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.146 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.146 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.146 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.147 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.147 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:49:33.147 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.857 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:51:56.882 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.882 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.882 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.883 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.883 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.883 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.883 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:51:56.883 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.054 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 19:56:02.078 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.078 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.079 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.079 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.079 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.079 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.079 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 19:56:02.080 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.914 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 22:25:53.939 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.939 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.940 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.940 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.940 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.940 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.940 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:53.940 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:25:54.059 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 22:25:54.391 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1367672657.
+2023-06-06 22:25:54.392 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@51850751]
+2023-06-06 22:25:54.398 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - ==>  Preparing: select * from t_role_physique;
+2023-06-06 22:25:54.458 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - ==> Parameters: 
+2023-06-06 22:25:54.531 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - <==      Total: 7
+2023-06-06 22:50:15.094 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 22:50:15.116 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.117 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.117 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.117 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.117 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.118 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.118 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.118 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:50:15.241 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 22:50:15.555 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1357686726.
+2023-06-06 22:50:15.556 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@50eca7c6]
+2023-06-06 22:50:15.562 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll2 - ==>  Preparing: select * from t_role_physique
+2023-06-06 22:50:15.619 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll2 - ==> Parameters: 
+2023-06-06 22:50:15.678 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll2 - <==      Total: 7
+2023-06-06 22:58:52.020 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 22:58:52.044 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.044 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.044 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.045 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.045 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.045 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.045 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:58:52.045 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.753 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 22:59:22.776 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.777 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.777 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.777 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.777 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.777 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.778 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 22:59:22.778 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.568 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:06:35.593 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.594 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.594 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.594 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.595 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.595 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.595 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:06:35.595 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.336 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:08:23.364 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.364 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.364 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.364 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.365 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.365 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.365 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:08:23.365 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.878 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:09:39.901 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.901 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.901 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.901 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.902 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.902 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.902 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:09:39.902 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.387 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:12:14.409 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.410 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.410 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.410 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.410 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.410 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.410 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.411 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:12:14.418 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-06-06 23:12:14.418 DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-06-06 23:12:14.419 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-06-06 23:12:14.419 DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-06-06 23:12:14.420 DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-06-06 23:12:14.421 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:12:14.422 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:12:14.478 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Role_physiqueMapper.class
+2023-06-06 23:12:14.480 DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:12:14.480 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:12:14.480 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:12:14.481 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   =   1com/faintdream/mybatis/mapper/Role_physiqueMapper  java/lang/Object  $com/faintdream/mybatis/sot/InsertSOT  'com/faintdream/mybatis/sot/SelectAllSOT 	selectAll ()Ljava/util/List; 	Signature ?()Ljava/util/List<Lcom/faintdream/mybatis/pojo/Role_physique;>; 
+2023-06-06 23:12:14.484 DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.faintdream.mybatis.mapper.Role_physiqueMapper matches criteria [is assignable to Object]
+2023-06-06 23:12:14.569 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 23:12:14.904 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 662925691.
+2023-06-06 23:12:14.905 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2783717b]
+2023-06-06 23:12:14.911 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: select * from t_role_physique WHERE no=?
+2023-06-06 23:12:14.970 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 1(String)
+2023-06-06 23:12:15.032 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-06 23:21:19.113 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:21:19.135 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.135 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.136 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.136 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.136 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.136 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.136 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.136 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:21:19.143 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-06-06 23:21:19.143 DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-06-06 23:21:19.144 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-06-06 23:21:19.144 DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-06-06 23:21:19.145 DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-06-06 23:21:19.146 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:21:19.146 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:21:19.198 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Role_physiqueMapper.class
+2023-06-06 23:21:19.199 DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:21:19.200 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:21:19.200 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:21:19.201 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   =   1com/faintdream/mybatis/mapper/Role_physiqueMapper  java/lang/Object  $com/faintdream/mybatis/sot/InsertSOT  'com/faintdream/mybatis/sot/SelectAllSOT 	selectAll ()Ljava/util/List; 	Signature ?()Ljava/util/List<Lcom/faintdream/mybatis/pojo/Role_physique;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from t_role_physique 
+2023-06-06 23:21:19.206 DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.faintdream.mybatis.mapper.Role_physiqueMapper matches criteria [is assignable to Object]
+2023-06-06 23:21:19.295 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 23:21:19.631 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1061448687.
+2023-06-06 23:21:19.632 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3f446bef]
+2023-06-06 23:21:19.639 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - ==>  Preparing: select * from t_role_physique
+2023-06-06 23:21:19.711 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - ==> Parameters: 
+2023-06-06 23:21:19.776 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - <==      Total: 7
+2023-06-06 23:34:52.628 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:34:52.653 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.654 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.654 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.654 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.654 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.655 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.655 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.655 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:34:52.662 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-06-06 23:34:52.663 DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-06-06 23:34:52.664 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-06-06 23:34:52.665 DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-06-06 23:34:52.666 DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-06-06 23:34:52.667 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:34:52.668 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:34:52.727 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Role_physiqueMapper.class
+2023-06-06 23:34:52.728 DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:34:52.729 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:34:52.729 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:34:52.731 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   = ,  )com/faintdream/mybatis/pojo/Role_physique      1com/faintdream/mybatis/mapper/Role_physiqueMapper insert .(Lcom/faintdream/mybatis/pojo/Role_physique;)I 
+2023-06-06 23:34:52.735 DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.faintdream.mybatis.mapper.Role_physiqueMapper matches criteria [is assignable to Object]
+2023-06-06 23:34:52.832 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 23:34:53.189 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1166230227.
+2023-06-06 23:34:53.190 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@458342d3]
+2023-06-06 23:34:53.197 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==>  Preparing: INSERT INTO t_role_physique (no,physique,physique_c) VALUE('7','Old man','老头')
+2023-06-06 23:34:53.278 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==> Parameters: 
+2023-06-06 23:34:53.285 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - <==    Updates: 1
+2023-06-06 23:35:48.030 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:35:48.056 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.056 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.056 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.056 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.057 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.057 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.057 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.057 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:35:48.065 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-06-06 23:35:48.065 DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-06-06 23:35:48.066 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-06-06 23:35:48.066 DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-06-06 23:35:48.067 DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-06-06 23:35:48.068 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:35:48.069 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:35:48.122 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Role_physiqueMapper.class
+2023-06-06 23:35:48.123 DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:35:48.124 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:35:48.124 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:35:48.125 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   = ,  )com/faintdream/mybatis/pojo/Role_physique      1com/faintdream/mybatis/mapper/Role_physiqueMapper insert .(Lcom/faintdream/mybatis/pojo/Role_physique;)I 
+2023-06-06 23:35:48.129 DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.faintdream.mybatis.mapper.Role_physiqueMapper matches criteria [is assignable to Object]
+2023-06-06 23:35:48.226 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 23:35:48.599 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 837246227.
+2023-06-06 23:35:48.600 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e75d13]
+2023-06-06 23:35:48.608 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==>  Preparing: INSERT INTO t_role_physique (no,physique,physique_c) VALUE('7','Old man','老头')
+2023-06-06 23:35:48.689 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==> Parameters: 
+2023-06-06 23:35:48.693 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - <==    Updates: 1
+2023-06-06 23:35:48.694 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e75d13]
+2023-06-06 23:35:48.696 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e75d13]
+2023-06-06 23:35:48.697 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@31e75d13]
+2023-06-06 23:35:48.698 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 837246227 to pool.
+2023-06-06 23:37:34.824 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:37:34.848 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.848 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.848 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.849 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.849 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.849 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.849 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.849 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:37:34.856 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-06-06 23:37:34.856 DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-06-06 23:37:34.857 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-06-06 23:37:34.857 DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-06-06 23:37:34.858 DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-06-06 23:37:34.859 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:37:34.859 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:37:34.916 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Role_physiqueMapper.class
+2023-06-06 23:37:34.917 DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:37:34.917 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:37:34.918 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:37:34.919 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   = ,  )com/faintdream/mybatis/pojo/Role_physique      1com/faintdream/mybatis/mapper/Role_physiqueMapper insert .(Lcom/faintdream/mybatis/pojo/Role_physique;)I 
+2023-06-06 23:37:34.923 DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.faintdream.mybatis.mapper.Role_physiqueMapper matches criteria [is assignable to Object]
+2023-06-06 23:37:35.013 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 23:37:35.391 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1197721383.
+2023-06-06 23:37:35.391 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4763c727]
+2023-06-06 23:37:35.398 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==>  Preparing: INSERT INTO t_role_physique (no,physique,physique_c) VALUE(?,?,?)
+2023-06-06 23:37:35.470 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==> Parameters: 8(String), Old woman(String), 老太太(String)
+2023-06-06 23:37:35.473 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - <==    Updates: 1
+2023-06-06 23:37:35.474 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4763c727]
+2023-06-06 23:37:35.477 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4763c727]
+2023-06-06 23:37:35.478 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4763c727]
+2023-06-06 23:37:35.478 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1197721383 to pool.
+2023-06-06 23:40:17.477 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-06 23:40:17.502 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.503 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.503 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.503 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.503 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.503 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.504 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.504 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-06 23:40:17.511 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2023-06-06 23:40:17.512 DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2023-06-06 23:40:17.513 DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2023-06-06 23:40:17.515 DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2023-06-06 23:40:17.517 DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2023-06-06 23:40:17.518 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:40:17.519 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:40:17.602 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: Role_physiqueMapper.class
+2023-06-06 23:40:17.603 DEBUG org.apache.ibatis.io.DefaultVFS - Listing file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper
+2023-06-06 23:40:17.603 DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:40:17.604 DEBUG org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/D:/study/Mybatis2023/mybatis-009-annotation/target/classes/com/faintdream/mybatis/mapper/Role_physiqueMapper.class
+2023-06-06 23:40:17.605 DEBUG org.apache.ibatis.io.DefaultVFS - Reader entry: ����   = .  )com/faintdream/mybatis/pojo/Role_physique      1com/faintdream/mybatis/mapper/Role_physiqueMapper insert .(Lcom/faintdream/mybatis/pojo/Role_physique;)I 
+2023-06-06 23:40:17.608 DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.faintdream.mybatis.mapper.Role_physiqueMapper matches criteria [is assignable to Object]
+2023-06-06 23:40:17.711 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-06 23:40:18.133 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1060519157.
+2023-06-06 23:40:18.134 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3f363cf5]
+2023-06-06 23:40:18.142 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert2 - ==>  Preparing: INSERT INTO t_role_physique (no,physique,physique_c) VALUE(?,?,?);COMMIT;
+2023-06-06 23:40:18.220 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert2 - ==> Parameters: 8(String), Old woman(String), 老太太(String)

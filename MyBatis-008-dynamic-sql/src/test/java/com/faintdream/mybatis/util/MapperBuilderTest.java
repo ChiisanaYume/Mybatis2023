@@ -4,6 +4,9 @@ import com.faintdream.mybatis.mapper.SexMapper;
 import com.faintdream.mybatis.mapper.Weapons_typeMapper;
 import com.faintdream.mybatis.pojo.Sex;
 import com.faintdream.mybatis.pojo.Weapons_type;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.List;
@@ -30,5 +33,20 @@ public class MapperBuilderTest {
             System.err.println(s);
         }
 
+    }
+
+    @Ignore
+    @Test
+    public void classTest() throws ClassNotFoundException {
+        String s = "Hhh";
+        getClass(s);
+        Class<String> stringClass = String.class;
+        Class<?> stringClass2 = Class.forName(s);
+    }
+
+    @Contract("_ -> param1")
+    private <C> @NotNull C getClass(C c){
+        System.out.println(c.getClass());
+        return c;
     }
 }
