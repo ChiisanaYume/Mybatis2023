@@ -261,3 +261,61 @@ FROM t_genshin_role_detail M
          LEFT JOIN t_role_physique on M.physique = t_role_physique.no;
 
 INSERT INTO t_role_physique (no, physique, physique_c)         VALUES(8,'Toddler','幼女');
+
+UPDATE t_genshin_role_detail SET physique=6 WHERE id=31;
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=32;
+
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=33;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=34;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=35;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=36;
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=37;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=38;
+
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=39;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=40;
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=41;
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=42;
+
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=43;
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=46;
+
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=47;
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=48;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=49;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=50;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=51;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=52;
+
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=53;
+UPDATE t_genshin_role_detail SET physique=6 WHERE id=54;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=55;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=56;
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=58;
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=59;
+
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=72;
+
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=72;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=73;
+UPDATE t_genshin_role_detail SET physique=6 WHERE id=74;
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=75;
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=76;
+
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=77;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=78;
+UPDATE t_genshin_role_detail SET physique=2 WHERE id=79;
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=80;
+
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=81;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=82;
+UPDATE t_genshin_role_detail SET physique=1 WHERE id=83;
+
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=86;
+UPDATE t_genshin_role_detail SET physique=3 WHERE id=89;
+
+UPDATE t_genshin_role_detail SET physique=4 WHERE id=90;
+
+INSERT INTO t_genshin_role (name,name_c) VALUES('Charlotte','夏洛蒂');
+
+INSERT INTO t_genshin_role_detail SET id=91,sex=2,elemental_type=7,region=5,weapons_type=5,rarity=4,physique=4;

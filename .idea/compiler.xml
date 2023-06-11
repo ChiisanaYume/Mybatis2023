@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Apache-PDFBox-test" />
-        <module name="Mybatis-011-cache" />
         <module name="Mybatis-012-generator" />
         <module name="java-syntax-test" />
         <module name="Mybatis-010-adranced-mapper" />
@@ -15,15 +14,11 @@
         <module name="mybatis-009-annotation" />
         <module name="MyBaatis-001-introduction" />
       </profile>
-      <profile name="Annotation profile for MyBatis2023" enabled="true">
-        <sourceOutputDir name="../MyBatis-001-introduction/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../MyBatis-001-introduction/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="MyBaatis-001-introduction (1)" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MyBaatis-001-introduction (1)" target="17" />
       <module name="MyBatis-001-introduction" target="17" />
+      <module name="Mybatis-011-cache" target="17" />
       <module name="MyBatis-012-generator" target="17" />
     </bytecodeTargetLevel>
   </component>

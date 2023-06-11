@@ -1,7 +1,6 @@
 package com.faintdream.mybatis.pojo;
 
 import java.io.Serializable;
-import java.util.List;
 
 public class Role_physique implements Serializable {
     private String no;
