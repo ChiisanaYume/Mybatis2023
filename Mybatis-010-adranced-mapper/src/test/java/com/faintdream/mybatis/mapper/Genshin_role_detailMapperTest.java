@@ -51,4 +51,30 @@ public class Genshin_role_detailMapperTest {
         Genshin_role_detail role_detail = mapper.selectById2("30");
         System.out.println(role_detail);
     }
+
+    @Test
+    public void selectById3Test() throws IOException {
+        SqlSession sqlSession = SqlSessionUtil.openSqlSession();
+        Genshin_role_detailMapper mapper = sqlSession.getMapper(Genshin_role_detailMapper.class);
+
+        Genshin_role_detail role_detail = mapper.selectById3("30");
+        System.err.println(role_detail);
+    }
+    @Test
+    public void selectById4Test() throws IOException {
+        SqlSession sqlSession = SqlSessionUtil.openSqlSession();
+        Genshin_role_detailMapper mapper = sqlSession.getMapper(Genshin_role_detailMapper.class);
+
+        Genshin_role_detail role_detail = mapper.selectById4("30");
+        System.err.println(role_detail);
+    }
+
+    @Test
+    public void selectById5Test() throws IOException {
+        SqlSession sqlSession = SqlSessionUtil.openSqlSession();
+        Genshin_role_detailMapper mapper = sqlSession.getMapper(Genshin_role_detailMapper.class);
+
+        Genshin_role_detail role_detail = mapper.selectById4("30");
+        System.err.println(role_detail.getId());
+    }
 }

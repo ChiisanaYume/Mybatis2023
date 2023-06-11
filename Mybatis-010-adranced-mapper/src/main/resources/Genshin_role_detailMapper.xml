@@ -17,6 +17,34 @@
         <result property="physique.physique_c" column="physique_c"/>
     </resultMap>
 
+
+    <resultMap id="Genshin_role_detail3" type="Genshin_role_detail">
+        <id property="id" column="id"/>
+        <result property="sex" column="sex"/>
+        <result property="elemental_type" column="elemental_type"/>
+        <result property="region" column="region"/>
+        <result property="weapons_type" column="weapons_type"/>
+        <result property="rarity" column="rarity"/>
+        <association property="physique" javaType="${pojo}.Role_physique">
+            <id property="no" column="no"/>
+            <result property="physique_c" column="physique_c"/>
+            <result property="physique" column="physique"/>
+        </association>
+    </resultMap>
+
+    <resultMap id="Genshin_role_detail4" type="Genshin_role_detail">
+        <id property="id" column="id"/>
+        <result property="sex" column="sex"/>
+        <result property="elemental_type" column="elemental_type"/>
+        <result property="region" column="region"/>
+        <result property="weapons_type" column="weapons_type"/>
+        <result property="rarity" column="rarity"/>
+        <association property="physique"
+                     select="com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById"
+                     column="no"
+                     fetchType="lazy"/>
+    </resultMap>
+
     <select id="selectAll" resultType="Genshin_role_detail">
         select *
         from t_genshin_role_detail;
@@ -28,12 +56,42 @@
         where id = #{id};
     </select>
     <select id="selectById2" resultMap="Genshin_role_detail" parameterType="java.lang.String">
-        SELECT M.id,M.sex,M.elemental_type,M.region,M.rarity,M.weapons_type,
+        SELECT M.id,
+               M.sex,
+               M.elemental_type,
+               M.region,
+               M.rarity,
+               M.weapons_type,
                t_role_physique.physique_c
         FROM t_genshin_role_detail M
-        LEFT JOIN t_role_physique on M.physique = t_role_physique.no
+                 LEFT JOIN t_role_physique on M.physique = t_role_physique.no
         WHERE id = #{id}
-
     </select>
 
+    <select id="selectById3" resultMap="Genshin_role_detail3" parameterType="java.lang.String">
+        SELECT M.id,
+               M.sex,
+               M.elemental_type,
+               M.region,
+               M.rarity,
+               M.weapons_type,
+               t_role_physique.physique_c,
+               t_role_physique.no,
+               t_role_physique.physique
+        FROM t_genshin_role_detail M
+                 LEFT JOIN t_role_physique on M.physique = t_role_physique.no
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectById4" resultMap="Genshin_role_detail4" parameterType="java.lang.String">
+        SELECT M.id, M.sex, M.elemental_type, M.region, M.rarity, M.weapons_type, M.physique no
+        FROM t_genshin_role_detail M
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectByPhysique" resultType="Genshin_role_detail" parameterType="java.lang.String">
+        SELECT M.id, M.sex, M.elemental_type, M.region, M.rarity, M.weapons_type
+        FROM t_genshin_role_detail M
+        WHERE physique = #{no}
+    </select>
 </mapper>

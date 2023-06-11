@@ -78,5 +78,6 @@
         <!--执行XxxMapper.xml文件的路径-->
         <!--resource属性会自动从类的根路径查找资源-->
         <mapper resource="Genshin_role_detailMapper.xml"/>
+        <mapper resource="Role_physiqueMapper.xml"/>
     </mappers>
 </configuration>

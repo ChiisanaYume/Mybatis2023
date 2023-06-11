@@ -10,13 +10,25 @@ import java.util.List;
 import java.util.Map;
 
 public class FSwev implements Swev {
+    private static int varDefaultType = USER_VARIABLE;
+    private final List<String> processOutputStreams = new LinkedList<>();
+    private final List<String> ProcessErrStreams = new LinkedList<>();
     public FSwev() {
     }
 
-    private static int varDefaultType = USER_VARIABLE;
+    public static int getVarDefaultType() {
+        return varDefaultType;
+    }
 
-    private final List<String> processOutputStreams = new LinkedList<>();
-    private final List<String> ProcessErrStreams = new LinkedList<>();
+    public static void setVarDefaultType(int varType) throws IOException {
+        if (varType == 1 || varType == 0) {
+            varDefaultType = varType;
+        } else {
+            throw new IOException("The parameter can only be 0(SYSTEM_VARIABLE) or 1(USER_VARIABLE).");
+        }
+    }
+
+    /*getter&setter*/
 
     /**
      * 设置环境变量
@@ -64,7 +76,7 @@ public class FSwev implements Swev {
         } catch (InterruptedException | IOException e) {
             throw new IOException(e);
         } finally {
-            if(process!=null){
+            if (process != null) {
                 process.destroy();
             }
 
@@ -100,20 +112,6 @@ public class FSwev implements Swev {
 
     }
 
-    /*getter&setter*/
-
-    public static int getVarDefaultType() {
-        return varDefaultType;
-    }
-
-    public static void setVarDefaultType(int varType) throws IOException {
-        if (varType == 1 || varType == 0) {
-            varDefaultType = varType;
-        } else {
-            throw new IOException("The parameter can only be 0(SYSTEM_VARIABLE) or 1(USER_VARIABLE).");
-        }
-    }
-
     /**
      * 设置环境变量前的安全检查
      *
@@ -122,14 +120,22 @@ public class FSwev implements Swev {
      * @throws IOException 检查如果有风险项抛出IOException
      */
     private void check(String variable, String value) throws IOException {
-        new VariableCheck2().check(variable,value);
+        new VariableCheck2().check(variable, value);
+    }
+
+    public List<String> getProcessOutputStreams() {
+        return processOutputStreams;
+    }
+
+    public List<String> getProcessErrStreams() {
+        return ProcessErrStreams;
     }
 
     /**
      * 检查环境变量是否已经存在存在
      */
     @Deprecated
-    private static class VariableCheck1 extends SafetyCheck{
+    private static class VariableCheck1 extends SafetyCheck {
         /**
          * 设置环境变量前的安全检查
          *
@@ -148,13 +154,5 @@ public class FSwev implements Swev {
                 }
             }
         }
-    }
-
-    public List<String> getProcessOutputStreams() {
-        return processOutputStreams;
-    }
-
-    public List<String> getProcessErrStreams() {
-        return ProcessErrStreams;
     }
 }

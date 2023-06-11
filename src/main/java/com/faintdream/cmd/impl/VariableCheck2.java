@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class VariableCheck2 extends SafetyCheck{
+public class VariableCheck2 extends SafetyCheck {
     /**
      * 设置环境变量前的安全检查
      *

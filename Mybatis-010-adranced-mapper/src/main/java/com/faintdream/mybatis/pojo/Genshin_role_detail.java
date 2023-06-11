@@ -90,6 +90,7 @@ public class Genshin_role_detail {
         this.physique = physique;
     }
 
+
     @Override
     public String toString() {
         return "Genshin_role_detail{" +

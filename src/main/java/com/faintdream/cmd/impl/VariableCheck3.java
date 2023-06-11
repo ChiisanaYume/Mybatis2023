@@ -2,7 +2,7 @@ package com.faintdream.cmd.impl;
 
 import java.io.IOException;
 
-public class VariableCheck3 extends  SafetyCheck{
+public class VariableCheck3 extends SafetyCheck {
     /**
      * 设置环境变量前的安全检查
      *

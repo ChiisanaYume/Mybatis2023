@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的全限类名-->
+<mapper namespace="com.faintdream.mybatis.mapper.Role_physiqueMapper">
+
+    <resultMap id="Role_physique" type="com.faintdream.mybatis.pojo.Role_physique">
+        <id property="no" column="no"/>
+        <result property="physique" column="physique"/>
+        <result property="physique_c" column="physique_c"/>
+        <collection property="roles" ofType="com.faintdream.mybatis.pojo.Genshin_role_detail">
+            <id property="id" column="id"/>
+            <result property="sex" column="sex"/>
+            <result property="elemental_type" column="elemental_type"/>
+            <result property="region" column="region"/>
+            <result property="weapons_type" column="weapons_type"/>
+            <result property="rarity" column="rarity"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="Role_physique2" type="${pojo}.Role_physique">
+        <id property="no" column="no"/>
+        <result property="physique" column="physique"/>
+        <result property="physique_c" column="physique_c"/>
+
+        <association property="roles"
+                     select="com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectByPhysique"
+                     column="no"
+                     fetchType="lazy"/>
+    </resultMap>
+
+    <select id="selectById" parameterType="java.lang.String" resultType="com.faintdream.mybatis.pojo.Role_physique">
+        SELECT no,physique,physique_c FROM t_role_physique WHERE no=#{id};
+    </select>
+
+    <select id="selectByIdCollection" resultMap="Role_physique" parameterType="java.lang.String">
+        SELECT
+            M.no,M.physique,M.physique_c,
+            ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity
+        FROM
+            t_role_physique M
+        LEFT JOIN
+            t_genshin_role_detail ROLE ON M.no = ROLE.physique
+        WHERE
+            no=#{no};
+    </select>
+
+    <select id="selectByIdStep" resultMap="Role_physique2" parameterType="java.lang.String">
+        SELECT
+            M.no,M.physique,M.physique_c
+        FROM
+            t_role_physique M
+        WHERE
+            no=#{no};
+    </select>
+</mapper>

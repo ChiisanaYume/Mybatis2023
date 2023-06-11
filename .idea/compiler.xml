@@ -7,26 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Apache-PDFBox-test" />
-        <module name="MyBatis-001-introduction" />
-        <module name="Tesseract-OCR-test" />
-        <module name="Mybatis-007-skill" />
+        <module name="Mybatis-011-cache" />
+        <module name="Mybatis-012-generator" />
         <module name="java-syntax-test" />
-        <module name="Mybatis-006-crud" />
         <module name="Mybatis-010-adranced-mapper" />
         <module name="MyBatis-002-crud" />
         <module name="mybatis-009-annotation" />
-        <module name="MyBatis-008-dynamic-sql" />
-        <module name="junit-test" />
-        <module name="MyBatis-005-web" />
-        <module name="MyBatis-003-configuration" />
-        <module name="cmd-test" />
+        <module name="MyBaatis-001-introduction" />
+      </profile>
+      <profile name="Annotation profile for MyBatis2023" enabled="true">
+        <sourceOutputDir name="../MyBatis-001-introduction/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../MyBatis-001-introduction/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyBaatis-001-introduction (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-      <module name="demo1" target="1.8" />
-      <module name="Mybatis-004-web" target="17" />
-      <module name="MyBatis-004-web" target="1.8" />
+      <module name="MyBatis-001-introduction" target="17" />
+      <module name="MyBatis-012-generator" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

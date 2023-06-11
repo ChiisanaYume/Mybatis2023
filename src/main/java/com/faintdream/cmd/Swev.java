@@ -1,9 +1,6 @@
 package com.faintdream.cmd;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Map;
 
 /**
  * 设置Window环境变量(Set Window Environment Variable)

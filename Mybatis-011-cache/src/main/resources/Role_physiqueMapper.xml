@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的全限类名-->
+<mapper namespace="com.faintdream.mybatis.mapper.Role_physiqueMapper">
+    <cache/>
+    <resultMap id="Role_physique" type="Role_physique">
+        <id property="no" column="no"/>
+        <result property="physique" column="physique"/>
+        <result property="physique_c" column="physique_c"/>
+    </resultMap>
+
+    <select id="selectById" parameterType="java.lang.String" resultMap="Role_physique">
+        SELECT no,physique,physique_c FROM t_role_physique WHERE no=#{id};
+    </select>
+
+    <select id="selectAll" resultMap="Role_physique">
+        SELECT no,physique,physique_c FROM t_role_physique;
+    </select>
+
+    <insert id="insert" parameterType="${pojo}.Role_physique">
+        INSERT INTO t_role_physique (no, physique, physique_c)
+        VALUES(#{no},#{physique},#{physique_c});
+    </insert>
+</mapper>

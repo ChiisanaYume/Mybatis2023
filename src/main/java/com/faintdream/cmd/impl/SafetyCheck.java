@@ -2,7 +2,7 @@ package com.faintdream.cmd.impl;
 
 import java.io.IOException;
 
-abstract public class SafetyCheck implements Check{
+abstract public class SafetyCheck implements Check {
     private Check nextCheck;
 
     /**
@@ -11,10 +11,10 @@ abstract public class SafetyCheck implements Check{
      * @param variable 变量名
      * @param value    变量值
      * @throws IOException 检查如果有风险项抛出IOException
-     * */
-    public void nextCheck(String variable, String value) throws IOException{
-        if(nextCheck!=null){
-            nextCheck.check(variable,value);
+     */
+    public void nextCheck(String variable, String value) throws IOException {
+        if (nextCheck != null) {
+            nextCheck.check(variable, value);
         }
     }
 

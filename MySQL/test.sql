@@ -259,3 +259,5 @@ FROM t_genshin_role_detail M
          LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no
          LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no
          LEFT JOIN t_role_physique on M.physique = t_role_physique.no;
+
+INSERT INTO t_role_physique (no, physique, physique_c)         VALUES(8,'Toddler','幼女');
