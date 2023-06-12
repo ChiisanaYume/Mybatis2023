@@ -10,8 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Apache-PDFBox-test</module>
-
+        <module>cmd-test</module>
+        <module>junit-test</module>
         <module>java-syntax-test</module>
+
         <module>MyBatis-001-introduction</module>
         <module>MyBatis-002-crud</module>
         <module>Mybatis-009-annotation</module>
