@@ -15,12 +15,12 @@
         <module>java-syntax-test</module>
 
         <module>MyBatis-001-introduction</module>
-        <module>MyBatis-002-crud</module>
+        <module>MyBatis-002-crud1</module>
         <module>Mybatis-009-annotation</module>
         <module>Mybatis-010-adranced-mapper</module>
         <module>Mybatis-011-cache</module>
         <module>Mybatis-012-generator</module>
-        <module>Mybatis-002-crud2</module>
+        <module>MyBatis-002-crud1</module>
     </modules>
 
     <properties>

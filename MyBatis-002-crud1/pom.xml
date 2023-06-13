@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>Mybatis-002-crud2</artifactId>
+    <artifactId>MyBatis-002-crud1</artifactId>
 
     <dependencies>
 
