@@ -21,6 +21,7 @@
         <module name="Mybatis-011-cache" />
         <module name="MyBatis-002-crud-2" />
         <module name="MyBatis-007-skill" />
+        <module name="MyBatis-013-page" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

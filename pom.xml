@@ -25,7 +25,7 @@
         <module>Mybatis-010-advanced-mapper</module>
         <module>Mybatis-011-cache</module>
         <module>Mybatis-012-generator</module>
-
+        <module>MyBatis-013-page</module>
 
 
     </modules>
