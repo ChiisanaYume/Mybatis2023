@@ -1,0 +1,168 @@
+2023-06-09 21:45:25.406 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:45:25.430 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.431 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.431 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.431 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.432 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.432 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.432 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:45:25.432 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.268 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:48:46.292 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.293 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.293 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.293 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.294 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.294 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.294 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:48:46.294 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.198 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:51:14.221 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.221 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.221 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.221 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.221 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.222 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.222 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:51:14.222 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.343 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:52:06.365 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.366 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.366 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.366 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.367 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.367 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.367 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:52:06.367 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.445 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:55:26.468 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.469 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.469 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.469 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.469 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.470 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.470 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:55:26.470 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.736 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:56:40.758 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.758 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.758 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.759 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.759 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.759 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.759 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.760 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:56:40.907 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 21:56:41.245 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1488946768.
+2023-06-09 21:56:41.245 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@58bf8650]
+2023-06-09 21:56:41.251 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==>  Preparing: SELECT M.no,M.physique,M.physique_c, ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity FROM t_role_physique M LEFT JOIN t_genshin_role_detail ROLE ON M.no = ROLE.physique WHERE no=?;
+2023-06-09 21:56:41.318 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==> Parameters: 6(String)
+2023-06-09 21:56:41.376 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - <==      Total: 4
+2023-06-09 21:57:56.700 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 21:57:56.724 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.724 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.724 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.724 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.724 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.725 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.725 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.725 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 21:57:56.873 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 21:57:57.176 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 285074186.
+2023-06-09 21:57:57.177 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@10fde30a]
+2023-06-09 21:57:57.183 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==>  Preparing: SELECT M.no,M.physique,M.physique_c, ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity FROM t_role_physique M LEFT JOIN t_genshin_role_detail ROLE ON M.no = ROLE.physique WHERE no=?;
+2023-06-09 21:57:57.244 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==> Parameters: 6(String)
+2023-06-09 21:57:57.311 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - <==      Total: 4
+2023-06-09 22:00:00.156 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 22:00:00.179 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.179 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.180 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.180 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.180 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.180 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.180 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.180 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:00.331 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 22:00:00.648 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 662666707.
+2023-06-09 22:00:00.648 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@277f7dd3]
+2023-06-09 22:00:00.654 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==>  Preparing: SELECT M.no,M.physique,M.physique_c, ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity FROM t_role_physique M LEFT JOIN t_genshin_role_detail ROLE ON M.no = ROLE.physique WHERE no=?;
+2023-06-09 22:00:00.714 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==> Parameters: 6(String)
+2023-06-09 22:00:00.786 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - <==      Total: 4
+2023-06-09 22:00:38.599 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 22:00:38.624 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.624 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.625 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.625 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.625 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.625 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.625 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.625 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:00:38.795 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 22:00:39.160 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 99808631.
+2023-06-09 22:00:39.160 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f2f577]
+2023-06-09 22:00:39.167 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==>  Preparing: SELECT M.no,M.physique,M.physique_c, ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity FROM t_role_physique M LEFT JOIN t_genshin_role_detail ROLE ON M.no = ROLE.physique WHERE no=?;
+2023-06-09 22:00:39.235 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==> Parameters: 6(String)
+2023-06-09 22:00:39.292 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - <==      Total: 4
+2023-06-09 22:02:50.532 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 22:02:50.556 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.556 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.556 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.556 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.557 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.557 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.557 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.558 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:02:50.711 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 22:02:51.036 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 659996839.
+2023-06-09 22:02:51.036 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2756c0a7]
+2023-06-09 22:02:51.043 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==>  Preparing: SELECT M.no,M.physique,M.physique_c, ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity FROM t_role_physique M LEFT JOIN t_genshin_role_detail ROLE ON M.no = ROLE.physique WHERE no=?;
+2023-06-09 22:02:51.111 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==> Parameters: 6(String)
+2023-06-09 22:02:51.181 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - <==      Total: 4
+2023-06-09 22:10:32.157 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 22:10:32.183 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.184 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.184 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.184 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.184 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.185 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.185 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.185 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:10:32.367 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 22:10:32.796 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 890160158.
+2023-06-09 22:10:32.797 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@350ec41e]
+2023-06-09 22:10:32.805 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdStep - ==>  Preparing: SELECT M.no,M.physique,M.physique_c FROM t_role_physique M WHERE no=?;
+2023-06-09 22:10:32.883 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdStep - ==> Parameters: 1(String)
+2023-06-09 22:10:32.953 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdStep - <==      Total: 1
+2023-06-09 22:19:41.193 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 22:19:41.218 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.218 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.218 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.219 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.219 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.219 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.220 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.220 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 22:19:41.381 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 22:19:41.704 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1731295355.
+2023-06-09 22:19:41.705 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6731787b]
+2023-06-09 22:19:41.712 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdStep - ==>  Preparing: SELECT M.no,M.physique,M.physique_c FROM t_role_physique M WHERE no=?;
+2023-06-09 22:19:41.771 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdStep - ==> Parameters: 1(String)
+2023-06-09 22:19:41.913 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdStep - <==      Total: 1
+2023-06-09 22:19:41.915 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectByPhysique - ==>  Preparing: SELECT M.id, M.sex, M.elemental_type, M.region, M.rarity, M.weapons_type FROM t_genshin_role_detail M WHERE physique = ?
+2023-06-09 22:19:41.917 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectByPhysique - ==> Parameters: 1(String)
+2023-06-09 22:19:41.920 DEBUG com.faintdream.mybatis.mapper.Genshin_role_detailMapper.selectByPhysique - <==      Total: 2
+2023-06-09 23:52:30.299 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-09 23:52:30.323 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.323 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.323 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.323 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.324 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.324 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.324 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.324 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-09 23:52:30.483 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-09 23:52:30.806 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 864248990.
+2023-06-09 23:52:30.806 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3383649e]
+2023-06-09 23:52:30.813 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==>  Preparing: SELECT M.no,M.physique,M.physique_c, ROLE.id, ROLE.sex, ROLE.elemental_type, ROLE.region, ROLE.weapons_type, ROLE.rarity FROM t_role_physique M LEFT JOIN t_genshin_role_detail ROLE ON M.no = ROLE.physique WHERE no=?;
+2023-06-09 23:52:30.874 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - ==> Parameters: 6(String)
+2023-06-09 23:52:30.927 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectByIdCollection - <==      Total: 4

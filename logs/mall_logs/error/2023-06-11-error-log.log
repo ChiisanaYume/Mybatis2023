@@ -1,0 +1,132 @@
+2023-06-11 00:41:11.751 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-11 00:41:11.773 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.773 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.774 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.774 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.774 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.774 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.775 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.775 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:41:11.895 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 00:41:11.903 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 00:41:12.210 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 285074186.
+2023-06-11 00:41:12.211 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@10fde30a]
+2023-06-11 00:41:12.217 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 00:41:12.286 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 4(String)
+2023-06-11 00:41:12.338 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 00:41:12.340 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 00:41:12.340 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 00:41:12.347 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 2013768748.
+2023-06-11 00:41:12.347 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7807ac2c]
+2023-06-11 00:41:12.348 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 00:41:12.349 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 4(String)
+2023-06-11 00:41:12.351 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 00:42:12.468 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-11 00:42:12.490 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.491 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.491 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.491 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.491 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.492 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.492 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.492 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:42:12.614 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 00:42:12.621 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 00:42:12.939 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1592840862.
+2023-06-11 00:42:12.940 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ef0d29e]
+2023-06-11 00:42:12.946 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 00:42:13.015 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 4(String)
+2023-06-11 00:42:13.069 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 00:42:13.089 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ef0d29e]
+2023-06-11 00:42:13.090 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ef0d29e]
+2023-06-11 00:42:13.090 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1592840862 to pool.
+2023-06-11 00:44:10.347 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-11 00:44:10.369 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.370 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.370 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.370 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.370 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.371 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.371 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.371 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 00:44:10.495 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 00:44:10.502 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 00:44:10.817 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1115013644.
+2023-06-11 00:44:10.818 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4275c20c]
+2023-06-11 00:44:10.825 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 00:44:10.901 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 4(String)
+2023-06-11 00:44:10.958 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 00:44:10.969 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4275c20c]
+2023-06-11 00:44:10.970 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4275c20c]
+2023-06-11 00:44:10.970 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1115013644 to pool.
+2023-06-11 00:44:10.982 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.5
+2023-06-11 23:48:47.093 DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-06-11 23:48:47.121 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.122 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.122 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.123 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.123 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.123 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.124 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.124 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.279 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.287 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 23:48:47.697 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1338958728.
+2023-06-11 23:48:47.698 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fcee388]
+2023-06-11 23:48:47.705 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 23:48:47.779 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 6(String)
+2023-06-11 23:48:47.838 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 23:48:47.843 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.844 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique;
+2023-06-11 23:48:47.845 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - ==> Parameters: 
+2023-06-11 23:48:47.850 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectAll - <==      Total: 7
+2023-06-11 23:48:47.855 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.857 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.858 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.858 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 23:48:47.859 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 4(String)
+2023-06-11 23:48:47.861 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 23:48:47.863 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.876 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fcee388]
+2023-06-11 23:48:47.877 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fcee388]
+2023-06-11 23:48:47.877 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1338958728 to pool.
+2023-06-11 23:48:47.891 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.14285714285714285
+2023-06-11 23:48:47.893 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.25
+2023-06-11 23:48:47.894 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.2222222222222222
+2023-06-11 23:48:47.895 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 23:48:47.895 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 1338958728 from pool.
+2023-06-11 23:48:47.895 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4fcee388]
+2023-06-11 23:48:47.897 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 23:48:47.898 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 2(String)
+2023-06-11 23:48:47.900 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 23:48:47.902 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.2
+2023-06-11 23:48:47.902 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 23:48:47.903 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 2(String)
+2023-06-11 23:48:47.907 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 23:48:47.910 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.18181818181818182
+2023-06-11 23:48:47.912 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==>  Preparing: INSERT INTO t_role_physique (no, physique, physique_c) VALUES(?,?,?);
+2023-06-11 23:48:47.914 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - ==> Parameters: 8(String), Toddler(String), све╝(String)
+2023-06-11 23:48:47.917 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.insert - <==    Updates: 1
+2023-06-11 23:48:47.919 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.16666666666666666
+2023-06-11 23:48:47.920 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 23:48:47.921 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 2(String)
+2023-06-11 23:48:47.923 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 23:48:47.952 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.953 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.953 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.953 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.954 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.954 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.954 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.955 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2023-06-11 23:48:47.979 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.0
+2023-06-11 23:48:47.980 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2023-06-11 23:48:47.987 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1834031967.
+2023-06-11 23:48:47.988 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d511b5f]
+2023-06-11 23:48:47.989 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==>  Preparing: SELECT no,physique,physique_c FROM t_role_physique WHERE no=?;
+2023-06-11 23:48:47.990 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - ==> Parameters: 4(String)
+2023-06-11 23:48:47.993 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById - <==      Total: 1
+2023-06-11 23:48:47.994 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d511b5f]
+2023-06-11 23:48:47.995 DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6d511b5f]
+2023-06-11 23:48:47.995 DEBUG org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1834031967 to pool.
+2023-06-11 23:48:47.996 DEBUG com.faintdream.mybatis.mapper.Role_physiqueMapper - Cache Hit Ratio [com.faintdream.mybatis.mapper.Role_physiqueMapper]: 0.5

@@ -21,6 +21,7 @@
         <module name="Mybatis-011-cache" />
         <module name="MyBatis-002-crud-2" />
         <module name="MyBatis-007-skill" />
+        <module name="MyBaatis-001-introduction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="MyBaatis-001-introduction (2)" target="17" />
       <module name="MyBatis-002-crud" target="17" />
       <module name="MyBatis-003-configuration-2" target="17" />
+      <module name="Mybatis-010-adranced-mapper" target="17" />
       <module name="MyBatis-012-generator" target="17" />
     </bytecodeTargetLevel>
   </component>

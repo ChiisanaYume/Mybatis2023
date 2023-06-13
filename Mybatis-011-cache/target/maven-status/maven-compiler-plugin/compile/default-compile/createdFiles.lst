@@ -1,0 +1,10 @@
+com\faintdream\mybatis\sot\SelectByIdSOT.class
+com\faintdream\mybatis\sot\UpdateSOT.class
+com\faintdream\mybatis\util\SqlSessionUtil.class
+com\faintdream\mybatis\sot\InsertSOT.class
+com\faintdream\mybatis\sot\SelectAllSOT.class
+com\faintdream\mybatis\sot\DeleteByIdSOT.class
+com\faintdream\mybatis\util\Calc.class
+com\faintdream\mybatis\mapper\Role_physiqueMapper.class
+com\faintdream\mybatis\pojo\Role_physique.class
+com\faintdream\mybatis\sot\SqlOperationTemplate.class
