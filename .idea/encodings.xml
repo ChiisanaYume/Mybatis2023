@@ -13,10 +13,12 @@
     <file url="file://$PROJECT_DIR$/MyBatis-003-configuration-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyBatis-003-configuration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyBatis-003-configuration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyBatis-005-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyBatis-005-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyBatis-012-generator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MyBatis-012-generator/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Mybatis-010-adranced-mapper/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Mybatis-010-adranced-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis-010-advanced-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis-010-advanced-mapper/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Mybatis-011-cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Mybatis-011-cache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cmd-test/src/main/java" charset="UTF-8" />
