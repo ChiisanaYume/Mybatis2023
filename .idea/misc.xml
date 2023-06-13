@@ -5,13 +5,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-003-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-002-crud-1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/MyBatis-002-crud-1/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-002-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-003-configuration-2/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
 </project>
