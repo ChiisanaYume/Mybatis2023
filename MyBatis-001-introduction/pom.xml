@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.faintdream</groupId>
-    <artifactId>MyBaatis-001-introduction</artifactId>
+    <artifactId>MyBatis-001-introduction</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!--打包方式-->
