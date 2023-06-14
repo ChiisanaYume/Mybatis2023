@@ -4,94 +4,64 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <!--namespace使用Mapper接口的全限类名-->
-<mapper namespace="com.faintdream.mybatis.mapper.Genshin_role_detailMapper">
+<mapper namespace="com.faintdream.mybatis.mapper.GenshinRoleMapper">
 
-    <resultMap id="Genshin_role_detail" type="Genshin_role_detail">
+    <!--查询结果集合映射-->
+    <resultMap id="GenshinRole" type="GenshinRole">
         <result property="id" column="id"/>
-        <result property="sex" column="sex"/>
-        <result property="elemental_type" column="elemental_type"/>
-        <result property="region" column="region"/>
-        <result property="weapons_type" column="weapons_type"/>
+        <result property="name" column="name_c"/>
+        <result property="region" column="region_c"/>
+        <result property="sex" column="sex_c"/>
+        <result property="elementalType" column="type_c"/>
+        <result property="weaponsType" column="weapons_c"/>
         <result property="rarity" column="rarity"/>
-        <result property="physique.no" column="physique"/>
-        <result property="physique.physique_c" column="physique_c"/>
+        <result property="physique" column="physique_c"/>
     </resultMap>
 
-
-    <resultMap id="Genshin_role_detail3" type="Genshin_role_detail">
-        <id property="id" column="id"/>
-        <result property="sex" column="sex"/>
-        <result property="elemental_type" column="elemental_type"/>
-        <result property="region" column="region"/>
-        <result property="weapons_type" column="weapons_type"/>
-        <result property="rarity" column="rarity"/>
-        <association property="physique" javaType="${pojo}.Role_physique">
-            <id property="no" column="no"/>
-            <result property="physique_c" column="physique_c"/>
-            <result property="physique" column="physique"/>
-        </association>
-    </resultMap>
-
-    <resultMap id="Genshin_role_detail4" type="Genshin_role_detail">
-        <id property="id" column="id"/>
-        <result property="sex" column="sex"/>
-        <result property="elemental_type" column="elemental_type"/>
-        <result property="region" column="region"/>
-        <result property="weapons_type" column="weapons_type"/>
-        <result property="rarity" column="rarity"/>
-        <association property="physique"
-                     select="com.faintdream.mybatis.mapper.Role_physiqueMapper.selectById"
-                     column="no"
-                     fetchType="lazy"/>
-    </resultMap>
-
-    <select id="selectAll" resultType="Genshin_role_detail">
-        select *
-        from t_genshin_role_detail;
-    </select>
-
-    <select id="selectById" resultType="Genshin_role_detail" parameterType="java.lang.String">
-        select *
-        from t_genshin_role_detail
-        where id = #{id};
-    </select>
-    <select id="selectById2" resultMap="Genshin_role_detail" parameterType="java.lang.String">
+    <!--可以复用的SQL代码-->
+    <sql id="selectLink">
         SELECT M.id,
-               M.sex,
-               M.elemental_type,
-               M.region,
+               t_genshin_role.name_c,
+               t_genshin_region.region_c,
+               t_sex.sex_c,
+               t_elemental_type.type_c,
+               t_weapons_type.weapons_c,
                M.rarity,
-               M.weapons_type,
                t_role_physique.physique_c
         FROM t_genshin_role_detail M
+                 LEFT JOIN t_genshin_role ON M.id = t_genshin_role.id
+                 LEFT JOIN t_genshin_region ON M.region = t_genshin_region.no
+                 LEFT JOIN t_sex ON M.sex = t_sex.no
+                 LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no
+                 LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no
                  LEFT JOIN t_role_physique on M.physique = t_role_physique.no
-        WHERE id = #{id}
+    </sql>
+
+
+
+    <select id="selectAll" resultMap="GenshinRole">
+       <include refid="selectLink"/>
     </select>
 
-    <select id="selectById3" resultMap="Genshin_role_detail3" parameterType="java.lang.String">
-        SELECT M.id,
-               M.sex,
-               M.elemental_type,
-               M.region,
-               M.rarity,
-               M.weapons_type,
-               t_role_physique.physique_c,
-               t_role_physique.no,
-               t_role_physique.physique
-        FROM t_genshin_role_detail M
-                 LEFT JOIN t_role_physique on M.physique = t_role_physique.no
-        WHERE id = #{id}
+    <select id="selectByKey" resultMap="GenshinRole" parameterType="java.lang.String">
+        <include refid="selectLink"/>
+        WHERE M.id = #{key};
     </select>
 
-    <select id="selectById4" resultMap="Genshin_role_detail4" parameterType="java.lang.String">
-        SELECT M.id, M.sex, M.elemental_type, M.region, M.rarity, M.weapons_type, M.physique no
-        FROM t_genshin_role_detail M
-        WHERE id = #{id}
+    <select id="selectAllPage" resultMap="GenshinRole" >
+        <include refid="selectLink"/>
+        LIMIT ${startIndex}, ${pageSize};
     </select>
 
-    <select id="selectByPhysique" resultType="Genshin_role_detail" parameterType="java.lang.String">
-        SELECT M.id, M.sex, M.elemental_type, M.region, M.rarity, M.weapons_type
-        FROM t_genshin_role_detail M
-        WHERE physique = #{no}
+    <select id="selectAllPage1" resultMap="GenshinRole" >
+        <include refid="selectLink"/>
+        LIMIT #{startIndex},#{pageSize};
     </select>
+
+    <select id="selectAllPage2" resultMap="GenshinRole" >
+        <include refid="selectLink"/>
+        LIMIT (${startPage} * ${pageSize} - 1), ${pageSize};
+    </select>
+
+
 </mapper>

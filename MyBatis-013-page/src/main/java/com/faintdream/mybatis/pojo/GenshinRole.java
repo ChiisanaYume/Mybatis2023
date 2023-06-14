@@ -1,4 +1,4 @@
-package mybatis.pojo;
+package com.faintdream.mybatis.pojo;
 
 public class GenshinRole {
     private String id;

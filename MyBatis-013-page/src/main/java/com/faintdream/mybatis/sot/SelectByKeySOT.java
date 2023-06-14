@@ -1,4 +1,4 @@
-package mybatis.sot;
+package com.faintdream.mybatis.sot;
 
 /**
  * 查询(根据key[键，一般为主键])

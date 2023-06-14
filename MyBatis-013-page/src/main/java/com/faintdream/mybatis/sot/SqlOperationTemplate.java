@@ -1,4 +1,4 @@
-package mybatis.sot;
+package com.faintdream.mybatis.sot;
 
 /**
  * 数据库操作模板接口

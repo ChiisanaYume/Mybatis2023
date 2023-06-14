@@ -319,3 +319,22 @@ UPDATE t_genshin_role_detail SET physique=4 WHERE id=90;
 INSERT INTO t_genshin_role (name,name_c) VALUES('Charlotte','夏洛蒂');
 
 INSERT INTO t_genshin_role_detail SET id=91,sex=2,elemental_type=7,region=5,weapons_type=5,rarity=4,physique=4;
+
+SELECT M.id,
+       t_genshin_role.name_c,
+       t_genshin_region.region_c,
+       t_sex.sex_c,
+       t_elemental_type.type_c,
+       t_weapons_type.weapons_c,
+       M.rarity,
+       t_role_physique.physique_c
+FROM t_genshin_role_detail M
+         LEFT JOIN t_genshin_role ON M.id = t_genshin_role.id
+         LEFT JOIN t_genshin_region ON M.region = t_genshin_region.no
+         LEFT JOIN t_sex ON M.sex = t_sex.no
+         LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no
+         LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no
+         LEFT JOIN t_role_physique on M.physique = t_role_physique.no
+WHERE M.id=86;
+
+SELECT M.id,                t_genshin_role.name_c,                t_genshin_region.region_c,                t_sex.sex_c,                t_elemental_type.type_c,                t_weapons_type.weapons_c,                M.rarity,                t_role_physique.physique_c         FROM t_genshin_role_detail M                  LEFT JOIN t_genshin_role ON M.id = t_genshin_role.id                  LEFT JOIN t_genshin_region ON M.region = t_genshin_region.no                  LEFT JOIN t_sex ON M.sex = t_sex.no                  LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no                  LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no                  LEFT JOIN t_role_physique on M.physique = t_role_physique.no               LIMIT 5*8 - 1, 8;

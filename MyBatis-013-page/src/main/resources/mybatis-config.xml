@@ -19,10 +19,16 @@
         <property name="pojo" value="com.faintdream.mybatis.pojo"/>
     </properties>
 
+
     <!-- typeAliases 配置类型别名-->
     <typeAliases>
         <typeAlias alias="GenshinRole" type="${pojo}.GenshinRole" />
     </typeAliases>
+
+    <!--mybatis分页拦截器-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+    </plugins>
 
     <!--配置(数据库)环境-->
     <!--default属性表示默认使用的环境-->

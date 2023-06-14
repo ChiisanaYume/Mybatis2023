@@ -5,6 +5,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import org.junit.Test;
+
+
+import javax.annotation.processing.SupportedAnnotationTypes;
 
 public class SimpleWindow extends Application {
 
@@ -33,4 +37,11 @@ public class SimpleWindow extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+    @Test
+    public void test(){
+        launch();
+    }
+
+
 }

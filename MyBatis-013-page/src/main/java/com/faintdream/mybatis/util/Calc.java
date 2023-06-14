@@ -1,4 +1,4 @@
-package mybatis.util;
+package com.faintdream.mybatis.util;
 
 import java.math.BigDecimal;
 
@@ -91,7 +91,7 @@ public class Calc {
      * @param b =除数(String类型)
      * @return 商(String类型)
      * */
-    public static String divI(final String a,final String b){
+    public static String div2(final String a,final String b){
         BigDecimal aa = new BigDecimal(a);
         BigDecimal bb = new BigDecimal(b);
         return String.valueOf(aa.divideToIntegralValue(bb));

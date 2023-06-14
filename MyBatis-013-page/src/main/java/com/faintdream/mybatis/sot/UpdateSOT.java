@@ -1,4 +1,4 @@
-package mybatis.sot;
+package com.faintdream.mybatis.sot;
 
 /**
  * 修改一条数据

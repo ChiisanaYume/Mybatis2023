@@ -1,4 +1,4 @@
-package mybatis.util;
+package com.faintdream.mybatis.util;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;

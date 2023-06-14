@@ -22,7 +22,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
-            <scope>test</scope>
+            <scope>compile</scope>
         </dependency>
         <!--PDFBox PDF操作-->
         <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->

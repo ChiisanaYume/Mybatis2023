@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.faintdream.mybatis.mapper.GenshinRoleMapper">
-  <resultMap id="BaseResultMap" type="com.faintdream.mybatis.pojo.GenshinRole">
+<mapper namespace="com.faintdream.com.faintdream.mapper.mybatis.GenshinRoleMapper">
+  <resultMap id="BaseResultMap" type="com.faintdream.com.faintdream.pojo.mybatis.GenshinRole">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="name_c" jdbcType="VARCHAR" property="nameC" />
@@ -10,13 +10,13 @@
     delete from t_genshin_role
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.faintdream.mybatis.pojo.GenshinRole">
+  <insert id="insert" parameterType="com.faintdream.com.faintdream.pojo.mybatis.GenshinRole">
     insert into t_genshin_role (id, name, name_c
       )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{nameC,jdbcType=VARCHAR}
       )
   </insert>
-  <update id="updateByPrimaryKey" parameterType="com.faintdream.mybatis.pojo.GenshinRole">
+  <update id="updateByPrimaryKey" parameterType="com.faintdream.com.faintdream.pojo.mybatis.GenshinRole">
     update t_genshin_role
     set name = #{name,jdbcType=VARCHAR},
       name_c = #{nameC,jdbcType=VARCHAR}
