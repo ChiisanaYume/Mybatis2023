@@ -1,0 +1,15 @@
+`@Target({ElementType.METHOD})` 是一个注解，用于指定注解的适用目标类型。
+
+`@Target` 注解用于限定注解可以应用的目标元素类型，可以通过指定一个元素类型数组来定义注解的适用范围。常见的元素类型包括：
+
+- `ElementType.TYPE`：类、接口、枚举等类型
+- `ElementType.FIELD`：字段、枚举常量
+- `ElementType.METHOD`：方法
+- `ElementType.PARAMETER`：方法参数
+- `ElementType.CONSTRUCTOR`：构造函数
+- `ElementType.LOCAL_VARIABLE`：局部变量
+- `ElementType.ANNOTATION_TYPE`：注解类型
+- `ElementType.PACKAGE`：包
+
+通过在注解上添加 `@Target` 并指定适用目标类型，可以限定注解的使用范围，避免错误的使用情况。
+`@Target({ElementType.METHOD})` 表示该注解只能应用于方法上，如果在其他类型的元素上使用该注解，编译器将会报错。

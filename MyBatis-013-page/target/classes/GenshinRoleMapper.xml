@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace使用Mapper接口的全限类名-->
+<mapper namespace="com.faintdream.mybatis.mapper.GenshinRoleMapper">
+
+    <!--查询结果集合映射-->
+    <resultMap id="GenshinRole" type="GenshinRole">
+        <result property="id" column="id"/>
+        <result property="name" column="name_c"/>
+        <result property="region" column="region_c"/>
+        <result property="sex" column="sex_c"/>
+        <result property="elementalType" column="type_c"/>
+        <result property="weaponsType" column="weapons_c"/>
+        <result property="rarity" column="rarity"/>
+        <result property="physique" column="physique_c"/>
+    </resultMap>
+
+    <!--可以复用的SQL代码-->
+    <sql id="selectLink">
+        SELECT M.id,
+               t_genshin_role.name_c,
+               t_genshin_region.region_c,
+               t_sex.sex_c,
+               t_elemental_type.type_c,
+               t_weapons_type.weapons_c,
+               M.rarity,
+               t_role_physique.physique_c
+        FROM t_genshin_role_detail M
+                 LEFT JOIN t_genshin_role ON M.id = t_genshin_role.id
+                 LEFT JOIN t_genshin_region ON M.region = t_genshin_region.no
+                 LEFT JOIN t_sex ON M.sex = t_sex.no
+                 LEFT JOIN t_elemental_type on M.elemental_type = t_elemental_type.no
+                 LEFT JOIN t_weapons_type on M.weapons_type = t_weapons_type.no
+                 LEFT JOIN t_role_physique on M.physique = t_role_physique.no
+    </sql>
+
+
+
+    <select id="selectAll" resultMap="GenshinRole">
+       <include refid="selectLink"/>;
+    </select>
+
+    <select id="selectByKey" resultMap="GenshinRole" parameterType="java.lang.String">
+        <include refid="selectLink"/>
+        WHERE M.id = #{key};
+    </select>
+
+    <select id="selectAllPage" resultMap="GenshinRole" >
+        <include refid="selectLink"/>
+        LIMIT ${startIndex}, ${pageSize};
+    </select>
+
+    <select id="selectAllPage1" resultMap="GenshinRole" >
+        <include refid="selectLink"/>
+        LIMIT #{startIndex},#{pageSize};
+    </select>
+
+    <select id="selectAllPage2" resultMap="GenshinRole" >
+        <include refid="selectLink"/>
+        LIMIT (${startPage} * ${pageSize} - 1), ${pageSize};
+    </select>
+
+
+</mapper>

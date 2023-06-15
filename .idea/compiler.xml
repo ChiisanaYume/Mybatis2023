@@ -14,6 +14,7 @@
         <module name="MyBatis-008-dynamic-sql" />
         <module name="junit-test" />
         <module name="MyBatis-005-web" />
+        <module name="review-annotation" />
         <module name="Mybatis-010-advanced-mapper" />
         <module name="MyBatis-003-configuration" />
         <module name="Mybatis-006-crud-3" />
