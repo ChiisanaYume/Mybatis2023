@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
 // @Target({ElementType.METHOD})
 
 // 在使用注解的时候，如果属性值是数组，并且数组中只有一个元素，大括号可以省略
-@Target(ElementType.METHOD)
+@Target(ElementType.TYPE)
 
 //@Retention 也是一个元注解，用来标注@Component注解最终保留在class文件当中，并且可以被反射机制读取
 @Retention(RetentionPolicy.RUNTIME)
@@ -31,16 +31,16 @@ public @interface MyAnnotation {
     // 其他的属性
     // 属性类型String
     // 属性名是name
-    String name();
+    //String name();
 
     // 数组类型
     // 属性类型是String[]
     // 属性名是names
-    String names();
+    // String names();
 
     // int[] ages();
 
-    //int age();
+    // int age();
 }
 /*
 确实，Java注解本身只是用于标注信息的一种机制，但结合反射机制，可以实现一些复杂的功能。
