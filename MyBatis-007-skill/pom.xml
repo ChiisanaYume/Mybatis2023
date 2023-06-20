@@ -7,7 +7,7 @@
     <groupId>com.faintdream</groupId>
     <artifactId>MyBatis-007-skill</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Mybatis-006-crud</name>
+    <name>MyBatis-007-skill</name>
     <packaging>war</packaging>
 
     <properties>

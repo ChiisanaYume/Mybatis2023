@@ -17,16 +17,18 @@
         <module>MyBatis-001-introduction</module>
         <module>MyBatis-002-crud-2</module>
         <module>MyBatis-003-configuration</module>
+
         <module>MyBatis-005-web</module>
-        <module>Mybatis-006-crud-3</module>
-        <module>Mybatis-007-skill</module>
+        <module>MyBatis-006-crud-5</module>
+        <module>MyBatis-007-skill</module>
         <module>MyBatis-008-dynamic-sql</module>
-        <module>Mybatis-009-annotation</module>
+        <module>MyBatis-009-annotation</module>
         <module>Mybatis-010-advanced-mapper</module>
         <module>Mybatis-011-cache</module>
         <module>Mybatis-012-generator</module>
         <module>MyBatis-013-page</module>
         <module>review-annotation</module>
+
 
 
     </modules>

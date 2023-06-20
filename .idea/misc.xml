@@ -3,8 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/MyBatis-005-web" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis-006-crud" />
     <file type="web" url="file://$PROJECT_DIR$/Mybatis-006-crud-3" />
-    <file type="web" url="file://$PROJECT_DIR$/Mybatis-007-skill" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis-007-skill" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +14,8 @@
         <option value="$PROJECT_DIR$/MyBatis-003-configuration/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-002-crud-1/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-005-web/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-009-annotaton/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-006-crud/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -20,6 +23,8 @@
         <option value="$PROJECT_DIR$/MyBatis-002-crud-1/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-002-crud/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-003-configuration-2/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-006-crud-3/pom.xml" />
+        <option value="$PROJECT_DIR$/Mybatis-009-annotation/pom.xml" />
       </set>
     </option>
   </component>
