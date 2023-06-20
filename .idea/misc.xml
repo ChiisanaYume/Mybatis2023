@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/MyBatis-005-web" />
     <file type="web" url="file://$PROJECT_DIR$/MyBatis-006-crud" />
     <file type="web" url="file://$PROJECT_DIR$/Mybatis-006-crud-3" />
+    <file type="web" url="file://$PROJECT_DIR$/MyBatis-006-crud-5" />
     <file type="web" url="file://$PROJECT_DIR$/MyBatis-007-skill" />
   </component>
   <component name="MavenProjectsManager">
@@ -15,7 +16,7 @@
         <option value="$PROJECT_DIR$/MyBatis-002-crud-1/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-005-web/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis-009-annotaton/pom.xml" />
-        <option value="$PROJECT_DIR$/MyBatis-006-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-006-crud-5/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

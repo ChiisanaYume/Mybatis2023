@@ -8,20 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Apache-PDFBox-test" />
         <module name="MyBatis-001-introduction" />
-        <module name="MyBatis-006-crud" />
+        <module name="module_C_test" />
         <module name="Mybatis-012-generator" />
         <module name="java-syntax-test" />
         <module name="MyBatis-008-dynamic-sql" />
+        <module name="module_B_test" />
         <module name="junit-test" />
         <module name="review-annotation" />
         <module name="MyBatis-005-web" />
         <module name="Mybatis-010-advanced-mapper" />
+        <module name="MyBatis-006-crud-5" />
         <module name="MyBatis-003-configuration" />
         <module name="cmd-test" />
         <module name="Mybatis-011-cache" />
         <module name="MyBatis-002-crud-2" />
         <module name="MyBatis-009-annotation" />
         <module name="MyBatis-007-skill" />
+        <module name="module_A_test" />
         <module name="MyBatis-013-page" />
       </profile>
     </annotationProcessing>
@@ -30,6 +33,7 @@
       <module name="MyBaatis-001-introduction (2)" target="17" />
       <module name="MyBatis-002-crud" target="17" />
       <module name="MyBatis-003-configuration-2" target="17" />
+      <module name="MyBatis-006-crud" target="1.8" />
       <module name="Mybatis-006-crud-3" target="1.8" />
       <module name="Mybatis-009-annotation" target="17" />
       <module name="Mybatis-010-adranced-mapper" target="17" />

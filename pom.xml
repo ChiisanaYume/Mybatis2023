@@ -28,7 +28,9 @@
         <module>Mybatis-012-generator</module>
         <module>MyBatis-013-page</module>
         <module>review-annotation</module>
-
+        <module>module_A_test</module>
+        <module>module_B_test</module>
+        <module>module_C_test</module>
 
 
     </modules>
