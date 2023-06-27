@@ -1,4 +1,4 @@
-package com.faintdream.test;
+package com.faintdream.testb;
 
 import com.faintdream.a.AClass;
 

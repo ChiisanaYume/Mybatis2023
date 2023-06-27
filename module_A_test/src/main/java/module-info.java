@@ -1,4 +1,4 @@
-module module_A_test {
+open module module_A_test {
     // 导出的包
     exports com.faintdream.a;
 
